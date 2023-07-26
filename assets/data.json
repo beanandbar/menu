@@ -1,0 +1,286 @@
+{
+  "config": {
+    "bar": {
+      "on": true,
+      "name": "... & Bar",
+      "route": "bar",
+      "img": "./assets/images/cocktail.jpg",
+      "order": 2
+    },
+    "appetizers": {
+      "on": false,
+      "name": "Appetizers",
+      "route": "appetizers",
+      "img": "./assets/images/appetizers.jpg",
+      "order": 4
+    },
+    "desserts": {
+      "on": true,
+      "name": "Desserts",
+      "route": "desserts",
+      "img": "./assets/images/dessert.jpg",
+      "order": 3
+    },
+    "coffee": {
+      "on": true,
+      "name": "The Bean ...",
+      "route": "coffee",
+      "img": "./assets/images/coffee.jpeg",
+      "order": 1
+    }
+  },
+  "bar": [
+    {
+      "header": { "col1": "glass", "col2": "bottle" },
+      "category": "",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "",
+      "category": "",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    }
+  ],
+  "coffee": [
+    {
+      "header": { "col1": "md", "col2": "Lg" },
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": ""
+      }
+    },
+    {
+      "name": "Oreo Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Kinder Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Lotus Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Nutella Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Kitkat Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Oreo Kitkat Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Oreo Nutella Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Salted Toffee Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Toffee Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Caramel Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Strawberry Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Vanilla Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Ice Latte",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Ice Tea",
+      "category": "Cold",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "header": { "col1": "md", "col2": "Lg" },
+      "category": "Hot",
+      "price": {
+        "md": "",
+        "lg": ""
+      }
+    },
+    {
+      "name": "Hot Chocolate",
+      "category": "Hot",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Kinder Hot",
+      "category": "Hot",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Kitkat Hot",
+      "category": "Hot",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Oreo Hot",
+      "category": "Hot",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Nutella Hot",
+      "category": "Hot",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Lotus Hot",
+      "category": "Hot",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Salted Toffee Hot",
+      "category": "Hot",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Toffee Hot",
+      "category": "Hot",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    },
+    {
+      "name": "Caffe Latte",
+      "category": "Hot",
+      "price": {
+        "md": "$4",
+        "lg": "$5"
+      }
+    }
+  ],
+  "appetizers": [
+    {
+      "name": "",
+      "category": "",
+      "price": 0
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Tiramissou",
+      "category": "Desserts",
+      "price": 11
+    },
+    {
+      "name": "Cheese Cake",
+      "category": "Desserts",
+      "price": 8
+    },
+    {
+      "name": "Biscuit Au Chocolat",
+      "category": "Desserts",
+      "price": 9
+    },
+    {
+      "name": "Casterd",
+      "category": "Desserts",
+      "price": 8
+    },
+    {
+      "name": "Gelo",
+      "category": "Desserts",
+      "price": 4
+    }
+  ]
+}
