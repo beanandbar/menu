@@ -260,27 +260,27 @@
     {
       "name": "Tiramissou",
       "category": "Desserts",
-      "price": 11
+      "price": 3
     },
     {
-      "name": "Cheese Cake",
+      "name": "Oreo Cheesecake",
       "category": "Desserts",
-      "price": 8
+      "price": 3
     },
     {
-      "name": "Biscuit Au Chocolat",
+      "name": "Raspberry Cheesecake",
       "category": "Desserts",
-      "price": 9
+      "price": 3
     },
     {
-      "name": "Casterd",
+      "name": "Fondant",
       "category": "Desserts",
-      "price": 8
+      "price": 7
     },
     {
-      "name": "Gelo",
+      "name": "Biscuit Aux Chocolat",
       "category": "Desserts",
-      "price": 4
+      "price": 2
     }
   ]
 }
