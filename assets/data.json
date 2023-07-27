@@ -31,7 +31,7 @@
   },
   "bar": [
     {
-      "header": { "col1": "glass", "col2": "" },
+      "header": { "col1": "", "col2": "glass" },
       "category": "Coctail",
       "price": {
         "glass": "",
@@ -42,112 +42,112 @@
       "name": "Passion Fruit Martini",
       "category": "Coctail",
       "price": {
-        "glass": "$5",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$5"
       }
     },
     {
       "name": "Lychee Martini",
       "category": "Coctail",
       "price": {
-        "glass": "$5",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$5"
       }
     },
     {
       "name": "Passion Fruit Gin",
       "category": "Coctail",
       "price": {
-        "glass": "$5",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$5"
       }
     },
     {
       "name": "Lychee Gin",
       "category": "Coctail",
       "price": {
-        "glass": "$5",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$5"
       }
     },
     {
       "name": "Midori Sour",
       "category": "Coctail",
       "price": {
-        "glass": "$5",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$5"
       }
     },
     {
       "name": "Jager Bomb",
       "category": "Coctail",
       "price": {
-        "glass": "$5",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$5"
       }
     },
     {
       "name": "Margaritta",
       "category": "Coctail",
       "price": {
-        "glass": "$5",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$5"
       }
     },
     {
       "name": "Bullfrog",
       "category": "Coctail",
       "price": {
-        "glass": "$6",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$6"
       }
     },
     {
       "name": "Take Me Home",
       "category": "Coctail",
       "price": {
-        "glass": "$6",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$6"
       }
     },
     {
       "name": "Arak Tout",
       "category": "Coctail",
       "price": {
-        "glass": "$4",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$4"
       }
     },
     {
       "name": "Gin Basil",
       "category": "Coctail",
       "price": {
-        "glass": "4$",
-        "bottle": ""
+        "glass": "",
+        "bottle": "4$"
       }
     },
     {
       "name": "Mohito",
       "category": "Coctail",
       "price": {
-        "glass": "$5",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$5"
       }
     },
     {
       "name": "Coba Libre",
       "category": "Coctail",
       "price": {
-        "glass": "$4",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$4"
       }
     },
     {
       "name": "Long Island",
       "category": "Coctail",
       "price": {
-        "glass": "$5",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$5"
       }
     },
     {
