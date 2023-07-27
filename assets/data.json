@@ -429,6 +429,22 @@
         "glass": "$8",
         "bottle": "$90"
       }
+    },
+    {
+      "name": "Dark Blue",
+      "category": "Energy Drinks",
+      "price": {
+        "glass": "",
+        "bottle": "$1.5"
+      }
+    },
+     {
+      "name": "Tonic Water",
+      "category": "Energy Drinks",
+      "price": {
+        "glass": "",
+        "bottle": "$1.5"
+      }
     }
   ],
   "coffee": [
