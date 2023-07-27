@@ -335,6 +335,14 @@
       }
     },
     {
+      "name": "Mexican Heineken",
+      "category": "Beer",
+      "price": {
+        "glass": "$3.5",
+        "bottle": ""
+      }
+    },
+    {
       "header": { "col1": "", "col2": "glass" },
       "category": "Gin",
       "price": {
