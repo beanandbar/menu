@@ -163,7 +163,7 @@
       "category": "Vodka",
       "price": {
         "glass": "$3.5",
-        "bottle": ""
+        "bottle": "$15"
       }
     },
     {
@@ -171,7 +171,15 @@
       "category": "Vodka",
       "price": {
         "glass": "$3.5",
-        "bottle": ""
+        "bottle": "$16"
+      }
+    },
+    {
+      "name": "Smirnof",
+      "category": "Vodka",
+      "price": {
+        "glass": "$3.5",
+        "bottle": "$16"
       }
     },
     {
@@ -179,15 +187,7 @@
       "category": "Vodka",
       "price": {
         "glass": "$3.5",
-        "bottle": ""
-      }
-    },
-    {
-      "name": "Greygoos",
-      "category": "Vodka",
-      "price": {
-        "glass": "$3.5",
-        "bottle": ""
+        "bottle": "$20"
       }
     },
     {
