@@ -43,7 +43,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$5"
+        "bottle": "$ 5"
       }
     },
     {
@@ -51,7 +51,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$5"
+        "bottle": "$ 5"
       }
     },
     {
@@ -59,7 +59,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$5"
+        "bottle": "$ 5"
       }
     },
     {
@@ -67,7 +67,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$5"
+        "bottle": "$ 5"
       }
     },
     {
@@ -75,7 +75,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$5"
+        "bottle": "$ 5"
       }
     },
     {
@@ -83,7 +83,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$5"
+        "bottle": "$ 5"
       }
     },
     {
@@ -91,7 +91,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$5"
+        "bottle": "$ 5"
       }
     },
     {
@@ -99,7 +99,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$6"
+        "bottle": "$ 6"
       }
     },
     {
@@ -107,7 +107,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$6"
+        "bottle": "$ 6"
       }
     },
     {
@@ -115,7 +115,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$4"
+        "bottle": "$ 4"
       }
     },
     {
@@ -123,7 +123,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$4"
+        "bottle": "$ 4"
       }
     },
     {
@@ -131,7 +131,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$5"
+        "bottle": "$ 5"
       }
     },
     {
@@ -139,7 +139,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$4"
+        "bottle": "$ 4"
       }
     },
     {
@@ -147,7 +147,7 @@
       "category": "Coctail",
       "price": {
         "glass": "",
-        "bottle": "$5"
+        "bottle": "$ 5"
       }
     },
     {
@@ -162,32 +162,32 @@
       "name": "Vodca Regular",
       "category": "Vodka",
       "price": {
-        "glass": "$3.5",
-        "bottle": "$15"
+        "glass": "$ 3.5",
+        "bottle": "$ 15"
       }
     },
     {
       "name": "Stoli Red",
       "category": "Vodka",
       "price": {
-        "glass": "$3.5",
-        "bottle": "$18"
+        "glass": "$ 3.5",
+        "bottle": "$ 18"
       }
     },
     {
       "name": "Smirnof",
       "category": "Vodka",
       "price": {
-        "glass": "$3.5",
-        "bottle": "$16"
+        "glass": "$ 3.5",
+        "bottle": "$ 16"
       }
     },
     {
       "name": "Russin Std",
       "category": "Vodka",
       "price": {
-        "glass": "$3.5",
-        "bottle": "$20"
+        "glass": "$ 3.5",
+        "bottle": "$ 20"
       }
     },
     {
@@ -202,72 +202,72 @@
       "name": "Ksara Red",
       "category": "Wine",
       "price": {
-        "glass": "$4",
-        "bottle": "$15"
+        "glass": "$ 4",
+        "bottle": "$ 15"
       }
     },
     {
       "name": "Ksara Blanc",
       "category": "Wine",
       "price": {
-        "glass": "$4",
-        "bottle": "$15"
+        "glass": "$ 4",
+        "bottle": "$ 15"
       }
     },
     {
       "name": "Ksara Rose",
       "category": "Wine",
       "price": {
-        "glass": "$4",
-        "bottle": "$15"
+        "glass": "$ 4",
+        "bottle": "$ 15"
       }
     },
     {
       "name": "DDT ROSE",
       "category": "Wine",
       "price": {
-        "glass": "$4",
-        "bottle": "$15"
+        "glass": "$ 4",
+        "bottle": "$ 15"
       }
     },
     {
       "name": "DDT Rouge",
       "category": "Wine",
       "price": {
-        "glass": "$4",
-        "bottle": "$15"
+        "glass": "$ 4",
+        "bottle": "$ 15"
       }
     },
     {
       "name": "DDT BLUE",
       "category": "Wine",
       "price": {
-        "glass": "$4",
-        "bottle": "$15"
+        "glass": "$ 4",
+        "bottle": "$ 15"
       }
     },
     {
       "name": "Kefraya Rose",
       "category": "Wine",
       "price": {
-        "glass": "$4",
-        "bottle": "$15"
+        "glass": "$ 4",
+        "bottle": "$ 15"
       }
     },
     {
       "name": "Kefraya Blanc",
       "category": "Wine",
       "price": {
-        "glass": "$4",
-        "bottle": "$15"
+        "glass": "$ 4",
+        "bottle": "$ 15"
       }
     },
     {
       "name": "Kefraya Rouge",
       "category": "Wine",
       "price": {
-        "glass": "$4",
-        "bottle": "$15"
+        "glass": "$ 4",
+        "bottle": "$ 15"
       }
     },
     {
@@ -283,7 +283,7 @@
       "category": "Champagne",
       "price": {
         "glass": "",
-        "bottle": "$25"
+        "bottle": "$ 25"
       }
     },
     {
@@ -291,7 +291,7 @@
       "category": "Champagne",
       "price": {
         "glass": "",
-        "bottle": "$180"
+        "bottle": "$ 180"
       }
     },
     {
@@ -307,7 +307,7 @@
       "category": "Beer",
       "price": {
         "glass": "",
-        "bottle": "$2"
+        "bottle": "$ 2"
       }
     },
     {
@@ -315,14 +315,14 @@
       "category": "Beer",
       "price": {
         "glass": "",
-        "bottle": "$2"
+        "bottle": "$ 2"
       }
     },
     {
       "name": "Mexican Almaza",
       "category": "Beer",
       "price": {
-        "glass": "$2.5",
+        "glass": "$ 2.5",
         "bottle": ""
       }
     },
@@ -331,14 +331,14 @@
       "category": "Beer",
       "price": {
         "glass": "",
-        "bottle": "$3"
+        "bottle": "$ 3"
       }
     },
     {
       "name": "Mexican Heineken",
       "category": "Beer",
       "price": {
-        "glass": "$3.5",
+        "glass": "$ 3.5",
         "bottle": ""
       }
     },
@@ -355,7 +355,7 @@
       "category": "Gin",
       "price": {
         "glass": "",
-        "bottle": "$3.5"
+        "bottle": "$ 3.5"
       }
     },
     {
@@ -363,7 +363,7 @@
       "category": "Gin",
       "price": {
         "glass": "",
-        "bottle": "$7"
+        "bottle": "$ 7"
       }
     },
     {
@@ -378,47 +378,47 @@
       "name": "Red Label",
       "category": "Wiskey",
       "price": {
-        "glass": "$4",
-        "bottle": "$40"
+        "glass": "$ 4",
+        "bottle": "$ 40"
       }
     },
     {
       "name": "Black Label",
       "category": "Wiskey",
       "price": {
-        "glass": "$5",
-        "bottle": "$50"
+        "glass": "$ 5",
+        "bottle": "$ 50"
       }
     },
     {
       "name": "Jameson",
       "category": "Wiskey",
       "price": {
-        "glass": "$4",
-        "bottle": "$40"
+        "glass": "$ 4",
+        "bottle": "$ 40"
       }
     },
     {
       "name": "Chivas",
       "category": "Wiskey",
       "price": {
-        "glass": "$5",
-        "bottle": "$50"
+        "glass": "$ 5",
+        "bottle": "$ 50"
       }
     },
     {
       "name": "Gold Label",
       "category": "Wiskey",
       "price": {
-        "glass": "$10",
-        "bottle": "$100"
+        "glass": "$ 10",
+        "bottle": "$ 100"
       }
     },
     {
       "name": "Jack And Coke",
       "category": "Wiskey",
       "price": {
-        "glass": "$6",
+        "glass": "$ 6",
         "bottle": ""
       }
     },
@@ -426,8 +426,8 @@
       "name": "Glenfiddich",
       "category": "Wiskey",
       "price": {
-        "glass": "$8",
-        "bottle": "$90"
+        "glass": "$ 8",
+        "bottle": "$ 90"
       }
     },
     {
@@ -435,15 +435,15 @@
       "category": "Energy Drinks",
       "price": {
         "glass": "",
-        "bottle": "$1.5"
+        "bottle": "$ 1.5"
       }
     },
-     {
+    {
       "name": "Tonic Water",
       "category": "Energy Drinks",
       "price": {
         "glass": "",
-        "bottle": "$1.5"
+        "bottle": "$ 1.5"
       }
     }
   ],
@@ -453,7 +453,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$3.5"
+        "lg": "$ 3.5"
       }
     },
     {
@@ -461,7 +461,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$3.5"
+        "lg": "$ 3.5"
       }
     },
     {
@@ -469,7 +469,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$3.5"
+        "lg": "$ 3.5"
       }
     },
     {
@@ -477,7 +477,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$3"
+        "lg": "$ 3"
       }
     },
     {
@@ -485,7 +485,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$4.5"
+        "lg": "$ 4.5"
       }
     },
     {
@@ -493,7 +493,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$3.5"
+        "lg": "$ 3.5"
       }
     },
     {
@@ -501,7 +501,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$4"
+        "lg": "$ 4"
       }
     },
     {
@@ -509,7 +509,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$3.5"
+        "lg": "$ 3.5"
       }
     },
     {
@@ -517,7 +517,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$4.5"
+        "lg": "$ 4.5"
       }
     },
     {
@@ -525,7 +525,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$4.5"
+        "lg": "$ 4.5"
       }
     },
     {
@@ -533,7 +533,7 @@
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$2.5"
+        "lg": "$ 2.5"
       }
     },
     {
@@ -541,7 +541,7 @@
       "category": "Smoothie",
       "price": {
         "md": "",
-        "lg": "$2.5"
+        "lg": "$ 2.5"
       }
     },
     {
@@ -549,7 +549,7 @@
       "category": "Smoothie",
       "price": {
         "md": "",
-        "lg": "$2.5"
+        "lg": "$ 2.5"
       }
     },
     {
@@ -557,7 +557,7 @@
       "category": "Smoothie",
       "price": {
         "md": "",
-        "lg": "$2.5"
+        "lg": "$ 2.5"
       }
     },
     {
@@ -572,48 +572,48 @@
       "name": "Hot Chocolate",
       "category": "Hot",
       "price": {
-        "md": "$2.5",
-        "lg": "$3"
+        "md": "$ 2.5",
+        "lg": "$ 3"
       }
     },
     {
       "name": "Oreo",
       "category": "Hot",
       "price": {
-        "md": "$3",
-        "lg": "$4"
+        "md": "$ 3",
+        "lg": "$ 4"
       }
     },
     {
       "name": "Nutella",
       "category": "Hot",
       "price": {
-        "md": "$3",
-        "lg": "$4"
+        "md": "$ 3",
+        "lg": "$ 4"
       }
     },
     {
       "name": "Kitkat",
       "category": "Hot",
       "price": {
-        "md": "$3",
-        "lg": "$4"
+        "md": "$ 3",
+        "lg": "$ 4"
       }
     },
     {
       "name": "Toffee",
       "category": "Hot",
       "price": {
-        "md": "$3",
-        "lg": "$4"
+        "md": "$ 3",
+        "lg": "$ 4"
       }
     },
     {
       "name": "Kinder",
       "category": "Hot",
       "price": {
-        "md": "$3.5",
-        "lg": "$4.5"
+        "md": "$ 3.5",
+        "lg": "$ 4.5"
       }
     },
     {
@@ -621,7 +621,7 @@
       "category": "Hot",
       "price": {
         "md": "",
-        "lg": "$1.5"
+        "lg": "$ 1.5"
       }
     },
     {
@@ -629,7 +629,7 @@
       "category": "Hot",
       "price": {
         "md": "",
-        "lg": "$2.5"
+        "lg": "$ 2.5"
       }
     },
     {
@@ -637,7 +637,7 @@
       "category": "Hot",
       "price": {
         "md": "",
-        "lg": "$2"
+        "lg": "$ 2"
       }
     },
     {
@@ -645,7 +645,7 @@
       "category": "Hot",
       "price": {
         "md": "",
-        "lg": "$1"
+        "lg": "$ 1"
       }
     }
   ],
