@@ -31,19 +31,395 @@
   },
   "bar": [
     {
-      "header": { "col1": "glass", "col2": "bottle" },
-      "category": "",
+      "header": { "col1": "glass", "col2": "" },
+      "category": "Coctail",
       "price": {
         "glass": "",
         "bottle": ""
       }
     },
     {
-      "name": "",
-      "category": "",
+      "name": "Passion Fruit Martini",
+      "category": "Coctail",
+      "price": {
+        "glass": "$5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Lychee Martini",
+      "category": "Coctail",
+      "price": {
+        "glass": "$5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Passion Fruit Gin",
+      "category": "Coctail",
+      "price": {
+        "glass": "$5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Lychee Gin",
+      "category": "Coctail",
+      "price": {
+        "glass": "$5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Midori Sour",
+      "category": "Coctail",
+      "price": {
+        "glass": "$5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Jager Bomb",
+      "category": "Coctail",
+      "price": {
+        "glass": "$5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Margaritta",
+      "category": "Coctail",
+      "price": {
+        "glass": "$5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Bullfrog",
+      "category": "Coctail",
+      "price": {
+        "glass": "$6",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Take Me Home",
+      "category": "Coctail",
+      "price": {
+        "glass": "$6",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Arak Tout",
+      "category": "Coctail",
+      "price": {
+        "glass": "$4",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Gin Basil",
+      "category": "Coctail",
+      "price": {
+        "glass": "4$",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Mohito",
+      "category": "Coctail",
+      "price": {
+        "glass": "$5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Coba Libre",
+      "category": "Coctail",
+      "price": {
+        "glass": "$4",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Long Island",
+      "category": "Coctail",
+      "price": {
+        "glass": "$5",
+        "bottle": ""
+      }
+    },
+    {
+      "header": { "col1": "glass", "col2": "" },
+      "category": "Vodka",
       "price": {
         "glass": "",
         "bottle": ""
+      }
+    },
+    {
+      "name": "Vodca Regular",
+      "category": "Vodka",
+      "price": {
+        "glass": "$3.5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Stoli Red",
+      "category": "Vodka",
+      "price": {
+        "glass": "$3.5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Russin Std",
+      "category": "Vodka",
+      "price": {
+        "glass": "$3.5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Greygoos",
+      "category": "Vodka",
+      "price": {
+        "glass": "$3.5",
+        "bottle": ""
+      }
+    },
+    {
+      "header": { "col1": "glass", "col2": "" },
+      "category": "Wine",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Ksara Red",
+      "category": "Wine",
+      "price": {
+        "glass": "$4",
+        "bottle": "$15"
+      }
+    },
+    {
+      "name": "Ksara Blanc",
+      "category": "Wine",
+      "price": {
+        "glass": "$4",
+        "bottle": "$15"
+      }
+    },
+    {
+      "name": "Ksara Rose",
+      "category": "Wine",
+      "price": {
+        "glass": "$4",
+        "bottle": "$15"
+      }
+    },
+    {
+      "name": "DDT ROSE",
+      "category": "Wine",
+      "price": {
+        "glass": "$4",
+        "bottle": "$15"
+      }
+    },
+    {
+      "name": "DDT Rouge",
+      "category": "Wine",
+      "price": {
+        "glass": "$4",
+        "bottle": "$15"
+      }
+    },
+    {
+      "name": "DDT BLUE",
+      "category": "Wine",
+      "price": {
+        "glass": "$4",
+        "bottle": "$15"
+      }
+    },
+    {
+      "name": "Kefraya Rose",
+      "category": "Wine",
+      "price": {
+        "glass": "$4",
+        "bottle": "$15"
+      }
+    },
+    {
+      "name": "Kefraya Blanc",
+      "category": "Wine",
+      "price": {
+        "glass": "$4",
+        "bottle": "$15"
+      }
+    },
+    {
+      "name": "Kefraya Rouge",
+      "category": "Wine",
+      "price": {
+        "glass": "$4",
+        "bottle": "$15"
+      }
+    },
+    {
+      "header": { "col1": "", "col2": "bottle" },
+      "category": "Champagne",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Proseco Piccini",
+      "category": "Champagne",
+      "price": {
+        "glass": "",
+        "bottle": "$25"
+      }
+    },
+    {
+      "name": "Moet & Chandon",
+      "category": "Champagne",
+      "price": {
+        "glass": "",
+        "bottle": "$180"
+      }
+    },
+    {
+      "header": { "col1": "glass", "col2": "bottle" },
+      "category": "Beer",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Almaza",
+      "category": "Beer",
+      "price": {
+        "glass": "",
+        "bottle": "$2"
+      }
+    },
+    {
+      "name": "Almaza Light",
+      "category": "Beer",
+      "price": {
+        "glass": "",
+        "bottle": "$2"
+      }
+    },
+    {
+      "name": "Mexican Almaza",
+      "category": "Beer",
+      "price": {
+        "glass": "$2.5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Heineken",
+      "category": "Beer",
+      "price": {
+        "glass": "",
+        "bottle": "$3"
+      }
+    },
+    {
+      "header": { "col1": "glass", "col2": "" },
+      "category": "Gin",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Gordons",
+      "category": "Gin",
+      "price": {
+        "glass": "$3.5",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Hendricks",
+      "category": "Gin",
+      "price": {
+        "glass": "$7",
+        "bottle": ""
+      }
+    },
+    {
+      "header": { "col1": "glass", "col2": "bottle" },
+      "category": "Wiskey",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Red Label",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$4",
+        "bottle": "$40"
+      }
+    },
+    {
+      "name": "Black Label",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$5",
+        "bottle": "$50"
+      }
+    },
+    {
+      "name": "Jameson",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$4",
+        "bottle": "$40"
+      }
+    },
+    {
+      "name": "Chivas",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$5",
+        "bottle": "$50"
+      }
+    },
+    {
+      "name": "Gold Label",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$10",
+        "bottle": "$100"
+      }
+    },
+    {
+      "name": "Jack And Coke",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$6",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Glenfiddich",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$8",
+        "bottle": "$90"
       }
     }
   ],
