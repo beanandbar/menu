@@ -191,7 +191,7 @@
       }
     },
     {
-      "header": { "col1": "glass", "col2": "" },
+      "header": { "col1": "glass", "col2": "bottle" },
       "category": "Wine",
       "price": {
         "glass": "",
