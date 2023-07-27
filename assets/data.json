@@ -335,7 +335,7 @@
       }
     },
     {
-      "header": { "col1": "glass", "col2": "" },
+      "header": { "col1": "", "col2": "glass" },
       "category": "Gin",
       "price": {
         "glass": "",
@@ -346,16 +346,16 @@
       "name": "Gordons",
       "category": "Gin",
       "price": {
-        "glass": "$3.5",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$3.5"
       }
     },
     {
       "name": "Hendricks",
       "category": "Gin",
       "price": {
-        "glass": "$7",
-        "bottle": ""
+        "glass": "",
+        "bottle": "$7"
       }
     },
     {
