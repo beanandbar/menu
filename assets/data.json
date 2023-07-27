@@ -433,127 +433,119 @@
   ],
   "coffee": [
     {
-      "header": { "col1": "md", "col2": "Lg" },
-      "category": "Cold",
-      "price": {
-        "md": "",
-        "lg": ""
-      }
-    },
-    {
       "name": "Oreo Frappe",
       "category": "Cold",
       "price": {
-        "md": "$4",
-        "lg": "$5"
-      }
-    },
-    {
-      "name": "Kinder Frappe",
-      "category": "Cold",
-      "price": {
-        "md": "$4",
-        "lg": "$5"
-      }
-    },
-    {
-      "name": "Lotus Frappe",
-      "category": "Cold",
-      "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$3.5"
       }
     },
     {
       "name": "Nutella Frappe",
       "category": "Cold",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$3.5"
       }
     },
     {
       "name": "Kitkat Frappe",
       "category": "Cold",
       "price": {
-        "md": "$4",
-        "lg": "$5"
-      }
-    },
-    {
-      "name": "Oreo Kitkat Frappe",
-      "category": "Cold",
-      "price": {
-        "md": "$4",
-        "lg": "$5"
-      }
-    },
-    {
-      "name": "Oreo Nutella Frappe",
-      "category": "Cold",
-      "price": {
-        "md": "$4",
-        "lg": "$5"
-      }
-    },
-    {
-      "name": "Salted Toffee Frappe",
-      "category": "Cold",
-      "price": {
-        "md": "$4",
-        "lg": "$5"
-      }
-    },
-    {
-      "name": "Toffee Frappe",
-      "category": "Cold",
-      "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$3.5"
       }
     },
     {
       "name": "Caramel Frappe",
       "category": "Cold",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$3"
       }
     },
     {
-      "name": "Strawberry Frappe",
+      "name": "Oreo Kitkat Frappe",
       "category": "Cold",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$4.5"
       }
     },
     {
-      "name": "Vanilla Frappe",
+      "name": "Toffee Frappe",
       "category": "Cold",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$3.5"
+      }
+    },
+    {
+      "name": "Salted Toffee Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$4"
+      }
+    },
+    {
+      "name": "Cookies And Cream",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$3.5"
+      }
+    },
+    {
+      "name": "Kinder Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$4.5"
+      }
+    },
+    {
+      "name": "Lotus Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$4.5"
       }
     },
     {
       "name": "Ice Latte",
       "category": "Cold",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$2.5"
       }
     },
     {
-      "name": "Ice Tea",
-      "category": "Cold",
+      "name": "Lemonade",
+      "category": "Smoothie",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$2.5"
       }
     },
     {
-      "header": { "col1": "md", "col2": "Lg" },
+      "name": "Minted Lemonade",
+      "category": "Smoothie",
+      "price": {
+        "md": "",
+        "lg": "$2.5"
+      }
+    },
+    {
+      "name": "Strawberry",
+      "category": "Smoothie",
+      "price": {
+        "md": "",
+        "lg": "$2.5"
+      }
+    },
+    {
+      "header": { "col1": "sm", "col2": "md" },
       "category": "Hot",
       "price": {
         "md": "",
@@ -564,72 +556,80 @@
       "name": "Hot Chocolate",
       "category": "Hot",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "$2.5",
+        "lg": "$3"
       }
     },
     {
-      "name": "Kinder Hot",
+      "name": "Oreo",
       "category": "Hot",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "$3",
+        "lg": "$4"
       }
     },
     {
-      "name": "Kitkat Hot",
+      "name": "Nutella",
       "category": "Hot",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "$3",
+        "lg": "$4"
       }
     },
     {
-      "name": "Oreo Hot",
+      "name": "Kitkat",
       "category": "Hot",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "$3",
+        "lg": "$4"
       }
     },
     {
-      "name": "Nutella Hot",
+      "name": "Toffee",
       "category": "Hot",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "$3",
+        "lg": "$4"
       }
     },
     {
-      "name": "Lotus Hot",
+      "name": "Kinder",
       "category": "Hot",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "$3.5",
+        "lg": "$4.5"
       }
     },
     {
-      "name": "Salted Toffee Hot",
+      "name": "Espresso",
       "category": "Hot",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$1.5"
       }
     },
     {
-      "name": "Toffee Hot",
+      "name": "Cappuccino",
       "category": "Hot",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$2.5"
       }
     },
     {
-      "name": "Caffe Latte",
+      "name": "Nescafe",
       "category": "Hot",
       "price": {
-        "md": "$4",
-        "lg": "$5"
+        "md": "",
+        "lg": "$2"
+      }
+    },
+    {
+      "name": "Tea",
+      "category": "Hot",
+      "price": {
+        "md": "",
+        "lg": "$1"
       }
     }
   ],
