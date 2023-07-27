@@ -127,7 +127,7 @@
       }
     },
     {
-      "name": "Mohito",
+      "name": "Mojito",
       "category": "Cocktail",
       "price": {
         "glass": "",
@@ -175,7 +175,7 @@
       }
     },
     {
-      "name": "Smirnof",
+      "name": "Smirnoff",
       "category": "Vodka",
       "price": {
         "glass": "$ 3.5",
@@ -183,7 +183,7 @@
       }
     },
     {
-      "name": "Russin Std",
+      "name": "Russian Std",
       "category": "Vodka",
       "price": {
         "glass": "$ 3.5",
@@ -658,7 +658,7 @@
   ],
   "desserts": [
     {
-      "name": "Tiramissou",
+      "name": "Tiramisu",
       "category": "Desserts",
       "price": 3
     },
