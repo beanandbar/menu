@@ -31,6 +31,264 @@
   },
   "bar": [
     {
+      "header": { "col1": "glass", "col2": "bottle" },
+      "category": "Wine",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Ksara Red",
+      "category": "Wine",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 15"
+      }
+    },
+    {
+      "name": "Ksara Blanc",
+      "category": "Wine",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 15"
+      }
+    },
+    {
+      "name": "Ksara Rose",
+      "category": "Wine",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 15"
+      }
+    },
+    {
+      "name": "DDT ROSE",
+      "category": "Wine",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 15"
+      }
+    },
+    {
+      "name": "DDT Rouge",
+      "category": "Wine",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 15"
+      }
+    },
+    {
+      "name": "DDT BLUE",
+      "category": "Wine",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 15"
+      }
+    },
+    {
+      "name": "Kefraya Rose",
+      "category": "Wine",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 15"
+      }
+    },
+    {
+      "name": "Kefraya Blanc",
+      "category": "Wine",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 15"
+      }
+    },
+    {
+      "name": "Kefraya Rouge",
+      "category": "Wine",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 15"
+      }
+    },
+    {
+      "header": { "col1": "glass", "col2": "bottle" },
+      "category": "Vodka",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Vodka Regular",
+      "category": "Vodka",
+      "price": {
+        "glass": "$ 3.5",
+        "bottle": "$ 15"
+      }
+    },
+    {
+      "name": "Stoli Red",
+      "category": "Vodka",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 18"
+      }
+    },
+    {
+      "name": "Smirnoff",
+      "category": "Vodka",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 18"
+      }
+    },
+    {
+      "name": "Russian Std",
+      "category": "Vodka",
+      "price": {
+        "glass": "$ 4.5",
+        "bottle": "$ 20"
+      }
+    },
+    {
+      "header": { "col1": "glass", "col2": "bottle" },
+      "category": "Wiskey",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Red Label",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 40"
+      }
+    },
+    {
+      "name": "Black Label",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$ 5",
+        "bottle": "$ 50"
+      }
+    },
+    {
+      "name": "Double Black",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$ 8",
+        "bottle": "$ 110"
+      }
+    },
+    {
+      "name": "Gold Label",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$ 10",
+        "bottle": "$ 130"
+      }
+    },
+    {
+      "name": "Jameson",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$ 4",
+        "bottle": "$ 40"
+      }
+    },
+    {
+      "name": "Chivas",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$ 5",
+        "bottle": "$ 50"
+      }
+    },
+
+    {
+      "name": "Jack Daniels",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$ 5",
+        "bottle": "$ 50"
+      }
+    },
+    {
+      "name": "Glenfiddich",
+      "category": "Wiskey",
+      "price": {
+        "glass": "$ 7",
+        "bottle": "$ 90"
+      }
+    },
+
+    {
+      "header": { "col1": "", "col2": "glass" },
+      "category": "Gin",
+      "price": {
+        "glass": "",
+        "bottle": ""
+      }
+    },
+    {
+      "name": "Gordons",
+      "category": "Gin",
+      "price": {
+        "glass": "",
+        "bottle": "$ 3.5"
+      }
+    },
+    {
+      "name": "Hendricks",
+      "category": "Gin",
+      "price": {
+        "glass": "",
+        "bottle": "$ 7"
+      }
+    },
+    {
+      "name": "Almaza",
+      "category": "Beer",
+      "price": {
+        "glass": "",
+        "bottle": "$ 2"
+      }
+    },
+    {
+      "name": "Almaza Light",
+      "category": "Beer",
+      "price": {
+        "glass": "",
+        "bottle": "$ 2"
+      }
+    },
+    {
+      "name": "Mexican Almaza",
+      "category": "Beer",
+      "price": {
+        "glass": "",
+        "bottle": "$ 2.5"
+      }
+    },
+    {
+      "name": "Heineken",
+      "category": "Beer",
+      "price": {
+        "glass": "",
+        "bottle": "$ 3"
+      }
+    },
+    {
+      "name": "Mexican Heineken",
+      "category": "Beer",
+      "price": {
+        "glass": "",
+        "bottle": "$ 3.5"
+      }
+    },
+    {
       "header": { "col1": "", "col2": "glass" },
       "category": "Cocktail",
       "price": {
@@ -151,126 +409,6 @@
       }
     },
     {
-      "header": { "col1": "glass", "col2": "" },
-      "category": "Vodka",
-      "price": {
-        "glass": "",
-        "bottle": ""
-      }
-    },
-    {
-      "name": "Vodca Regular",
-      "category": "Vodka",
-      "price": {
-        "glass": "$ 3.5",
-        "bottle": "$ 15"
-      }
-    },
-    {
-      "name": "Stoli Red",
-      "category": "Vodka",
-      "price": {
-        "glass": "$ 3.5",
-        "bottle": "$ 18"
-      }
-    },
-    {
-      "name": "Smirnoff",
-      "category": "Vodka",
-      "price": {
-        "glass": "$ 3.5",
-        "bottle": "$ 16"
-      }
-    },
-    {
-      "name": "Russian Std",
-      "category": "Vodka",
-      "price": {
-        "glass": "$ 3.5",
-        "bottle": "$ 20"
-      }
-    },
-    {
-      "header": { "col1": "glass", "col2": "bottle" },
-      "category": "Wine",
-      "price": {
-        "glass": "",
-        "bottle": ""
-      }
-    },
-    {
-      "name": "Ksara Red",
-      "category": "Wine",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 15"
-      }
-    },
-    {
-      "name": "Ksara Blanc",
-      "category": "Wine",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 15"
-      }
-    },
-    {
-      "name": "Ksara Rose",
-      "category": "Wine",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 15"
-      }
-    },
-    {
-      "name": "DDT ROSE",
-      "category": "Wine",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 15"
-      }
-    },
-    {
-      "name": "DDT Rouge",
-      "category": "Wine",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 15"
-      }
-    },
-    {
-      "name": "DDT BLUE",
-      "category": "Wine",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 15"
-      }
-    },
-    {
-      "name": "Kefraya Rose",
-      "category": "Wine",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 15"
-      }
-    },
-    {
-      "name": "Kefraya Blanc",
-      "category": "Wine",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 15"
-      }
-    },
-    {
-      "name": "Kefraya Rouge",
-      "category": "Wine",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 15"
-      }
-    },
-    {
       "header": { "col1": "", "col2": "bottle" },
       "category": "Champagne",
       "price": {
@@ -294,142 +432,7 @@
         "bottle": "$ 180"
       }
     },
-    {
-      "header": { "col1": "glass", "col2": "bottle" },
-      "category": "Beer",
-      "price": {
-        "glass": "",
-        "bottle": ""
-      }
-    },
-    {
-      "name": "Almaza",
-      "category": "Beer",
-      "price": {
-        "glass": "",
-        "bottle": "$ 2"
-      }
-    },
-    {
-      "name": "Almaza Light",
-      "category": "Beer",
-      "price": {
-        "glass": "",
-        "bottle": "$ 2"
-      }
-    },
-    {
-      "name": "Mexican Almaza",
-      "category": "Beer",
-      "price": {
-        "glass": "$ 2.5",
-        "bottle": ""
-      }
-    },
-    {
-      "name": "Heineken",
-      "category": "Beer",
-      "price": {
-        "glass": "",
-        "bottle": "$ 3"
-      }
-    },
-    {
-      "name": "Mexican Heineken",
-      "category": "Beer",
-      "price": {
-        "glass": "$ 3.5",
-        "bottle": ""
-      }
-    },
-    {
-      "header": { "col1": "", "col2": "glass" },
-      "category": "Gin",
-      "price": {
-        "glass": "",
-        "bottle": ""
-      }
-    },
-    {
-      "name": "Gordons",
-      "category": "Gin",
-      "price": {
-        "glass": "",
-        "bottle": "$ 3.5"
-      }
-    },
-    {
-      "name": "Hendricks",
-      "category": "Gin",
-      "price": {
-        "glass": "",
-        "bottle": "$ 7"
-      }
-    },
-    {
-      "header": { "col1": "glass", "col2": "bottle" },
-      "category": "Wiskey",
-      "price": {
-        "glass": "",
-        "bottle": ""
-      }
-    },
-    {
-      "name": "Red Label",
-      "category": "Wiskey",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 40"
-      }
-    },
-    {
-      "name": "Black Label",
-      "category": "Wiskey",
-      "price": {
-        "glass": "$ 5",
-        "bottle": "$ 50"
-      }
-    },
-    {
-      "name": "Jameson",
-      "category": "Wiskey",
-      "price": {
-        "glass": "$ 4",
-        "bottle": "$ 40"
-      }
-    },
-    {
-      "name": "Chivas",
-      "category": "Wiskey",
-      "price": {
-        "glass": "$ 5",
-        "bottle": "$ 50"
-      }
-    },
-    {
-      "name": "Gold Label",
-      "category": "Wiskey",
-      "price": {
-        "glass": "$ 10",
-        "bottle": "$ 100"
-      }
-    },
-    {
-      "name": "Jack And Coke",
-      "category": "Wiskey",
-      "price": {
-        "glass": "$ 6",
-        "bottle": ""
-      }
-    },
-    {
-      "name": "Glenfiddich",
-      "category": "Wiskey",
-      "price": {
-        "glass": "$ 8",
-        "bottle": "$ 90"
-      }
-    },
+
     {
       "name": "Dark Blue",
       "category": "Energy Drinks",
@@ -529,11 +532,19 @@
       }
     },
     {
-      "name": "Ice Latte",
+      "name": "Soft Drinks",
       "category": "Cold",
       "price": {
         "md": "",
-        "lg": "$ 2.5"
+        "lg": "$ 0.9"
+      }
+    },
+    {
+      "name": "Watter",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$ 0.5"
       }
     },
     {
@@ -574,46 +585,6 @@
       "price": {
         "md": "$ 2.5",
         "lg": "$ 3"
-      }
-    },
-    {
-      "name": "Oreo",
-      "category": "Hot",
-      "price": {
-        "md": "$ 3",
-        "lg": "$ 4"
-      }
-    },
-    {
-      "name": "Nutella",
-      "category": "Hot",
-      "price": {
-        "md": "$ 3",
-        "lg": "$ 4"
-      }
-    },
-    {
-      "name": "Kitkat",
-      "category": "Hot",
-      "price": {
-        "md": "$ 3",
-        "lg": "$ 4"
-      }
-    },
-    {
-      "name": "Toffee",
-      "category": "Hot",
-      "price": {
-        "md": "$ 3",
-        "lg": "$ 4"
-      }
-    },
-    {
-      "name": "Kinder",
-      "category": "Hot",
-      "price": {
-        "md": "$ 3.5",
-        "lg": "$ 4.5"
       }
     },
     {
