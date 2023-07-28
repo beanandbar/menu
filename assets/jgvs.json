@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Oreo",
+    "category": "Hot",
+    "price": {
+      "md": "$ 3",
+      "lg": "$ 4"
+    }
+  },
+  {
+    "name": "Nutella",
+    "category": "Hot",
+    "price": {
+      "md": "$ 3",
+      "lg": "$ 4"
+    }
+  },
+  {
+    "name": "Kitkat",
+    "category": "Hot",
+    "price": {
+      "md": "$ 3",
+      "lg": "$ 4"
+    }
+  },
+  {
+    "name": "Toffee",
+    "category": "Hot",
+    "price": {
+      "md": "$ 3",
+      "lg": "$ 4"
+    }
+  },
+  {
+    "name": "Kinder",
+    "category": "Hot",
+    "price": {
+      "md": "$ 3.5",
+      "lg": "$ 4.5"
+    }
+  }
+]
