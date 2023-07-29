@@ -409,6 +409,22 @@
       }
     },
     {
+      "name": "Chapman",
+      "category": "Cocktail",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
+      "name": "Jamaika",
+      "category": "Cocktail",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
       "header": { "col1": "", "col2": "bottle" },
       "category": "Champagne",
       "price": {
@@ -580,7 +596,15 @@
       }
     },
     {
-      "name": "Chapman",
+      "name": "Virgin Chapman",
+      "category": "Smoothie",
+      "price": {
+        "md": "",
+        "lg": "$ 3"
+      }
+    },
+     {
+      "name": "Virgin Jamaika",
       "category": "Smoothie",
       "price": {
         "md": "",
