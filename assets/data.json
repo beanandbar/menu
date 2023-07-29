@@ -539,6 +539,14 @@
         "lg": "$ 0.9"
       }
     },
+     {
+      "name": "Sparkling Water",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$ 2"
+      }
+    },
     {
       "name": "Watter",
       "category": "Cold",
@@ -569,6 +577,14 @@
       "price": {
         "md": "",
         "lg": "$ 2.5"
+      }
+    },
+    {
+      "name": "Chapman",
+      "category": "Smoothie",
+      "price": {
+        "md": "",
+        "lg": "$ 3"
       }
     },
     {
