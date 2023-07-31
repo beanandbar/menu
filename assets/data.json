@@ -71,7 +71,7 @@
       }
     },
     {
-      "name": "DDT ROSE",
+      "name": "DDT Rose",
       "category": "Wine",
       "price": {
         "glass": "$ 4",
@@ -87,7 +87,7 @@
       }
     },
     {
-      "name": "DDT BLUE",
+      "name": "DDT Blue",
       "category": "Wine",
       "price": {
         "glass": "$ 4",
@@ -563,7 +563,7 @@
         "lg": "$ 0.9"
       }
     },
-     {
+    {
       "name": "Sparkling Water",
       "category": "Cold",
       "price": {
@@ -572,7 +572,7 @@
       }
     },
     {
-      "name": "Watter",
+      "name": "Water",
       "category": "Cold",
       "price": {
         "md": "",
@@ -611,7 +611,7 @@
         "lg": "$ 3"
       }
     },
-     {
+    {
       "name": "Virgin Jamaika",
       "category": "Smoothie",
       "price": {
