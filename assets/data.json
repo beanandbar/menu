@@ -292,7 +292,7 @@
       "name": "Hendricks",
       "category": "Gin",
       "price": {
-        "glass": "7",
+        "glass": "$ 7",
         "bottle": "$ 110"
       }
     },
