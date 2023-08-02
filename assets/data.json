@@ -39,6 +39,46 @@
       }
     },
     {
+      "name": "Rakakat Fajita",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
+      "name": "Rakakat Jebneh",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 4"
+      }
+    },
+    {
+      "name": "Rakakat Pizza",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 4"
+      }
+    },
+    {
+      "name": "Rakakat Sojok",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 4"
+      }
+    },
+    {
+      "name": "Spring Rolls",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 4"
+      }
+    },
+    {
       "header": { "col1": "glass", "col2": "bottle" },
       "category": "Wine",
       "price": {
@@ -127,19 +167,11 @@
       }
     },
     {
-      "name": "Vodka Regular",
-      "category": "Vodka",
-      "price": {
-        "glass": "$ 3.5",
-        "bottle": "$ 15"
-      }
-    },
-    {
       "name": "Stoli Red",
       "category": "Vodka",
       "price": {
         "glass": "$ 4",
-        "bottle": "$ 18"
+        "bottle": "$ 35"
       }
     },
     {
@@ -147,7 +179,7 @@
       "category": "Vodka",
       "price": {
         "glass": "$ 4",
-        "bottle": "$ 18"
+        "bottle": "$ 35"
       }
     },
     {
@@ -155,7 +187,15 @@
       "category": "Vodka",
       "price": {
         "glass": "$ 4.5",
-        "bottle": "$ 20"
+        "bottle": "$ 35"
+      }
+    },
+     {
+      "name": "Greygoose",
+      "category": "Vodka",
+      "price": {
+        "glass": "$ 10",
+        "bottle": "$ 90"
       }
     },
     {
@@ -233,7 +273,7 @@
     },
 
     {
-      "header": { "col1": "", "col2": "glass" },
+      "header": { "col1": "glass", "col2": "bottle" },
       "category": "Gin",
       "price": {
         "glass": "",
@@ -244,16 +284,16 @@
       "name": "Gordons",
       "category": "Gin",
       "price": {
-        "glass": "",
-        "bottle": "$ 3.5"
+        "glass": "$ 3.5",
+        "bottle": "$ 35"
       }
     },
     {
       "name": "Hendricks",
       "category": "Gin",
       "price": {
-        "glass": "",
-        "bottle": "$ 7"
+        "glass": "7",
+        "bottle": "$ 110"
       }
     },
     {
@@ -628,6 +668,14 @@
       }
     },
     {
+      "name": "Sahlab",
+      "category": "Hot",
+      "price": {
+        "md": "",
+        "lg": "$ 5"
+      }
+    },
+     {
       "name": "Hot Chocolate",
       "category": "Hot",
       "price": {
@@ -680,6 +728,11 @@
       "name": "Tiramisu",
       "category": "Desserts",
       "price": 3
+    },
+    {
+      "name": "Fondant",
+      "category": "Desserts",
+      "price": 7
     },
     {
       "name": "Oreo Cheesecake",
