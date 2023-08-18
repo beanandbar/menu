@@ -39,6 +39,22 @@
       }
     },
     {
+      "name": "Sambousik",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
+      "name": "Kabkoub",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 6"
+      }
+    },
+    {
       "name": "Rakakat Fajita",
       "category": "Appetizers",
       "price": {
@@ -68,14 +84,6 @@
       "price": {
         "glass": "",
         "bottle": "$ 5"
-      }
-    },
-    {
-      "name": "Spring Rolls",
-      "category": "Appetizers",
-      "price": {
-        "glass": "",
-        "bottle": "$ 4"
       }
     },
     {
