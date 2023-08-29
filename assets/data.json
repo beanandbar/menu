@@ -644,6 +644,14 @@
       }
     },
     {
+      "name": "Strawberry",
+      "category": "Smoothie",
+      "price": {
+        "md": "",
+        "lg": "$ 3.5"
+      }
+    },
+    {
       "name": "Soft Drinks",
       "category": "Cold",
       "price": {
@@ -677,14 +685,6 @@
     },
     {
       "name": "Minted Lemonade",
-      "category": "Smoothie",
-      "price": {
-        "md": "",
-        "lg": "$ 2.5"
-      }
-    },
-    {
-      "name": "Strawberry",
       "category": "Smoothie",
       "price": {
         "md": "",
