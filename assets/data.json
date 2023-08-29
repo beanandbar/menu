@@ -441,6 +441,22 @@
       }
     },
     {
+      "name": "Arak Mint",
+      "category": "Cocktail",
+      "price": {
+        "glass": "",
+        "bottle": "$ 4"
+      }
+    },
+    {
+      "name": "Arak Wared",
+      "category": "Cocktail",
+      "price": {
+        "glass": "",
+        "bottle": "$ 4"
+      }
+    },
+    {
       "name": "Gin Basil",
       "category": "Cocktail",
       "price": {
