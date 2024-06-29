@@ -1,4 +1,13 @@
 {
+  "imgMenu": {
+    "on": true,
+    "images": [
+      "https://jmrealestate.github.io/night-in-paradise/img/menu/1.jpg",
+      "https://jmrealestate.github.io/night-in-paradise/img/menu/2.jpg",
+      "https://jmrealestate.github.io/night-in-paradise/img/menu/3.jpg",
+      "https://jmrealestate.github.io/night-in-paradise/img/menu/4.jpg"
+    ]
+  },
   "config": {
     "bar": {
       "on": true,
@@ -30,14 +39,6 @@
     }
   },
   "bar": [
-    {
-      "name": "Nachos",
-      "category": "Appetizers",
-      "price": {
-        "glass": "",
-        "bottle": "$ 6"
-      }
-    },
     {
       "header": { "col1": "glass", "col2": "bottle" },
       "category": "Wine",
@@ -71,7 +72,7 @@
       }
     },
     {
-      "name": "DDT Rose",
+      "name": "DDT ROSE",
       "category": "Wine",
       "price": {
         "glass": "$ 4",
@@ -87,7 +88,7 @@
       }
     },
     {
-      "name": "DDT Blue",
+      "name": "DDT BLUE",
       "category": "Wine",
       "price": {
         "glass": "$ 4",
@@ -417,22 +418,6 @@
       }
     },
     {
-      "name": "Chapman",
-      "category": "Cocktail",
-      "price": {
-        "glass": "",
-        "bottle": "$ 5"
-      }
-    },
-    {
-      "name": "Jamaika",
-      "category": "Cocktail",
-      "price": {
-        "glass": "",
-        "bottle": "$ 5"
-      }
-    },
-    {
       "header": { "col1": "", "col2": "bottle" },
       "category": "Champagne",
       "price": {
@@ -564,15 +549,7 @@
       }
     },
     {
-      "name": "Sparkling Water",
-      "category": "Cold",
-      "price": {
-        "md": "",
-        "lg": "$ 2"
-      }
-    },
-    {
-      "name": "Water",
+      "name": "Watter",
       "category": "Cold",
       "price": {
         "md": "",
@@ -601,22 +578,6 @@
       "price": {
         "md": "",
         "lg": "$ 2.5"
-      }
-    },
-    {
-      "name": "Virgin Chapman",
-      "category": "Smoothie",
-      "price": {
-        "md": "",
-        "lg": "$ 3"
-      }
-    },
-    {
-      "name": "Virgin Jamaika",
-      "category": "Smoothie",
-      "price": {
-        "md": "",
-        "lg": "$ 3"
       }
     },
     {
