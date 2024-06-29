@@ -40,6 +40,62 @@
   },
   "bar": [
     {
+      "name": "Nachos",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 6"
+      }
+    },
+    {
+      "name": "Sambousik",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
+      "name": "Kabkoub",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 6"
+      }
+    },
+    {
+      "name": "Rakakat Fajita",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
+      "name": "Rakakat Jebneh",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
+      "name": "Rakakat Pizza",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
+      "name": "Rakakat Sojok",
+      "category": "Appetizers",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
       "header": { "col1": "glass", "col2": "bottle" },
       "category": "Wine",
       "price": {
@@ -72,7 +128,7 @@
       }
     },
     {
-      "name": "DDT ROSE",
+      "name": "DDT Rose",
       "category": "Wine",
       "price": {
         "glass": "$ 4",
@@ -88,7 +144,7 @@
       }
     },
     {
-      "name": "DDT BLUE",
+      "name": "DDT Blue",
       "category": "Wine",
       "price": {
         "glass": "$ 4",
@@ -128,19 +184,11 @@
       }
     },
     {
-      "name": "Vodka Regular",
-      "category": "Vodka",
-      "price": {
-        "glass": "$ 3.5",
-        "bottle": "$ 15"
-      }
-    },
-    {
       "name": "Stoli Red",
       "category": "Vodka",
       "price": {
         "glass": "$ 4",
-        "bottle": "$ 18"
+        "bottle": "$ 35"
       }
     },
     {
@@ -148,7 +196,7 @@
       "category": "Vodka",
       "price": {
         "glass": "$ 4",
-        "bottle": "$ 18"
+        "bottle": "$ 35"
       }
     },
     {
@@ -156,7 +204,15 @@
       "category": "Vodka",
       "price": {
         "glass": "$ 4.5",
-        "bottle": "$ 20"
+        "bottle": "$ 35"
+      }
+    },
+    {
+      "name": "Greygoose",
+      "category": "Vodka",
+      "price": {
+        "glass": "$ 10",
+        "bottle": "$ 90"
       }
     },
     {
@@ -234,7 +290,7 @@
     },
 
     {
-      "header": { "col1": "", "col2": "glass" },
+      "header": { "col1": "glass", "col2": "bottle" },
       "category": "Gin",
       "price": {
         "glass": "",
@@ -245,16 +301,16 @@
       "name": "Gordons",
       "category": "Gin",
       "price": {
-        "glass": "",
-        "bottle": "$ 3.5"
+        "glass": "$ 3.5",
+        "bottle": "$ 35"
       }
     },
     {
       "name": "Hendricks",
       "category": "Gin",
       "price": {
-        "glass": "",
-        "bottle": "$ 7"
+        "glass": "$ 7",
+        "bottle": "$ 110"
       }
     },
     {
@@ -370,6 +426,14 @@
       }
     },
     {
+      "name": "Blueberry Martini",
+      "category": "Cocktail",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
       "name": "Take Me Home",
       "category": "Cocktail",
       "price": {
@@ -379,6 +443,22 @@
     },
     {
       "name": "Arak Tout",
+      "category": "Cocktail",
+      "price": {
+        "glass": "",
+        "bottle": "$ 4"
+      }
+    },
+    {
+      "name": "Arak Mint",
+      "category": "Cocktail",
+      "price": {
+        "glass": "",
+        "bottle": "$ 4"
+      }
+    },
+    {
+      "name": "Arak Wared",
       "category": "Cocktail",
       "price": {
         "glass": "",
@@ -411,6 +491,22 @@
     },
     {
       "name": "Long Island",
+      "category": "Cocktail",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
+      "name": "Chapman",
+      "category": "Cocktail",
+      "price": {
+        "glass": "",
+        "bottle": "$ 5"
+      }
+    },
+    {
+      "name": "Jamaica",
       "category": "Cocktail",
       "price": {
         "glass": "",
@@ -541,6 +637,46 @@
       }
     },
     {
+      "name": "Ice Tea Raspberry",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$ 3"
+      }
+    },
+    {
+      "name": "Ice Tea Peach",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$ 3"
+      }
+    },
+    {
+      "name": "Ice Tea Lemon",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$ 3"
+      }
+    },
+    {
+      "name": "Ice Tea Special",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$ 4"
+      }
+    },
+    {
+      "name": "Strawberry Frappe",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$ 3.5"
+      }
+    },
+    {
       "name": "Soft Drinks",
       "category": "Cold",
       "price": {
@@ -549,7 +685,15 @@
       }
     },
     {
-      "name": "Watter",
+      "name": "Sparkling Water",
+      "category": "Cold",
+      "price": {
+        "md": "",
+        "lg": "$ 2"
+      }
+    },
+    {
+      "name": "Water",
       "category": "Cold",
       "price": {
         "md": "",
@@ -573,11 +717,19 @@
       }
     },
     {
-      "name": "Strawberry",
+      "name": "Virgin Chapman",
       "category": "Smoothie",
       "price": {
         "md": "",
-        "lg": "$ 2.5"
+        "lg": "$ 3"
+      }
+    },
+    {
+      "name": "Virgin Jamaica",
+      "category": "Smoothie",
+      "price": {
+        "md": "",
+        "lg": "$ 3"
       }
     },
     {
@@ -589,11 +741,59 @@
       }
     },
     {
+      "name": "Sahlab",
+      "category": "Hot",
+      "price": {
+        "md": "",
+        "lg": "$ 4"
+      }
+    },
+    {
       "name": "Hot Chocolate",
       "category": "Hot",
       "price": {
         "md": "$ 2.5",
         "lg": "$ 3"
+      }
+    },
+    {
+      "name": "Oreo",
+      "category": "Hot",
+      "price": {
+        "md": "$ 3",
+        "lg": "$ 4"
+      }
+    },
+    {
+      "name": "Nutella",
+      "category": "Hot",
+      "price": {
+        "md": "$ 3",
+        "lg": "$ 4"
+      }
+    },
+    {
+      "name": "Kitkat",
+      "category": "Hot",
+      "price": {
+        "md": "$ 3",
+        "lg": "$ 4"
+      }
+    },
+    {
+      "name": "Toffee",
+      "category": "Hot",
+      "price": {
+        "md": "$ 3",
+        "lg": "$ 4"
+      }
+    },
+    {
+      "name": "Kinder",
+      "category": "Hot",
+      "price": {
+        "md": "$ 3.5",
+        "lg": "$ 4.5"
       }
     },
     {
@@ -641,6 +841,11 @@
       "name": "Tiramisu",
       "category": "Desserts",
       "price": 3
+    },
+    {
+      "name": "Fondant",
+      "category": "Desserts",
+      "price": 7
     },
     {
       "name": "Oreo Cheesecake",
