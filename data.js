@@ -21,7 +21,7 @@ const MENU_DATA = {
     "aboutUs": null,
     "aboutUsTranslation": null,
     "createdAt": "2024-12-18T01:25:13.181Z",
-    "updatedAt": "2024-12-19T19:49:02.083Z",
+    "updatedAt": "2025-03-20T22:00:34.781Z",
     "__v": 0,
     "templateId": "beanandbar"
   },
@@ -33,10 +33,10 @@ const MENU_DATA = {
       "label": "Coffee",
       "order": 1734637710724,
       "img": null,
-      "bgImg": null,
+      "bgImg": "https://jmrealestate.github.io/night-in-paradise/img/menu/1.jpg",
       "hide": false,
       "createdAt": "2024-12-19T19:49:02.319Z",
-      "updatedAt": "2024-12-19T19:49:02.319Z",
+      "updatedAt": "2025-03-20T22:00:35.063Z",
       "__v": 0
     },
     {
@@ -45,10 +45,10 @@ const MENU_DATA = {
       "label": "Food",
       "order": 1734637717083,
       "img": null,
-      "bgImg": null,
+      "bgImg": "https://jmrealestate.github.io/night-in-paradise/img/menu/2.jpg",
       "hide": false,
       "createdAt": "2024-12-19T19:49:02.551Z",
-      "updatedAt": "2024-12-19T19:49:02.551Z",
+      "updatedAt": "2025-03-20T22:00:35.344Z",
       "__v": 0
     },
     {
@@ -57,10 +57,10 @@ const MENU_DATA = {
       "label": "Bar 1",
       "order": 1734637738090,
       "img": null,
-      "bgImg": null,
+      "bgImg": "https://jmrealestate.github.io/night-in-paradise/img/menu/3.jpg",
       "hide": false,
       "createdAt": "2024-12-19T19:49:02.782Z",
-      "updatedAt": "2024-12-19T19:49:02.782Z",
+      "updatedAt": "2025-03-20T22:00:35.618Z",
       "__v": 0
     },
     {
@@ -69,10 +69,10 @@ const MENU_DATA = {
       "label": "Bar 2",
       "order": 1734637742587,
       "img": null,
-      "bgImg": null,
+      "bgImg": "https://jmrealestate.github.io/night-in-paradise/img/menu/4.jpg",
       "hide": false,
       "createdAt": "2024-12-19T19:49:03.021Z",
-      "updatedAt": "2024-12-19T19:49:03.021Z",
+      "updatedAt": "2025-03-20T22:00:35.892Z",
       "__v": 0
     }
   ],
