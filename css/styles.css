@@ -29,7 +29,7 @@ a {
 
 .menu-container {
   padding: 1rem 0.5rem;
-  max-width: 700px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -169,6 +169,8 @@ a {
   color: var(--text-color);
   overflow-wrap: break-word;
   word-break: break-word;
+  display: flex;
+  align-items: center;
 }
 
 .item-price {
@@ -196,6 +198,9 @@ a {
   transition: opacity var(--transition);
   opacity: 1;
   min-height: calc(100dvh - 130px);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
 }
 
 #menu-sections.hidden {
@@ -239,5 +244,17 @@ a {
 
   .subcategory-header h2 {
     margin: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  #menu-sections {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  #menu-sections {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
