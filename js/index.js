@@ -188,10 +188,10 @@ function createMenu(categoriesArray) {
 
       const subHeader = document.createElement("div");
       subHeader.className = "subcategory-header";
+      subHeader.innerHTML += `<h2>${sub.label}</h2>`;
       if (sub.bgImg) {
         subHeader.innerHTML += `<img src="${sub.bgImg}" alt="${sub.label}" loading="lazy">`;
       }
-      subHeader.innerHTML += `<h2>${sub.label}</h2>`;
       subDiv.appendChild(subHeader);
 
       const itemsWrapper = document.createElement("div");
