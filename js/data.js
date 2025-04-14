@@ -4,24 +4,24 @@ const MENU_DATA = {
       "email": null,
       "location": "Ehden, B'oufa",
       "locationTranslation": null,
-      "locationUrl": "maps.app.goo.gl/6NEcAhdBEu5QEeQ66",
+      "locationUrl": "https://maps.app.goo.gl/6NEcAhdBEu5QEeQ66",
       "facebookUrl": "https://www.facebook.com/profile.php?id=100095262936093",
       "instagramUrl": "https://www.instagram.com/thebeanandbar",
-      "whatsappUrl": "https://api.whatsapp.com/send/?phone=%2B96176605843&text&type=phone_number&app_absent=0"
+      "whatsappUrl": "https://api.whatsapp.com/send/?phone=%2B96176337179&text&type=phone_number&app_absent=0"
     },
     "_id": "67622479ee097d842fd9afd4",
     "menuId": "66d751cc2dfd45c14807f7cf",
     "currency": "$",
     "languages": [],
     "mainLang": null,
-    "phoneNumber": "+96176605843",
-    "displayedPhoneNumber": "76 605 843",
+    "phoneNumber": "+96176337179",
+    "displayedPhoneNumber": "76 337 179",
     "storeLogo": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/0bc1026f-4aff-4e9c-b39a-baf9626ef43a.jpg",
     "storeName": "The Bean & Bar",
     "aboutUs": null,
     "aboutUsTranslation": null,
     "createdAt": "2024-12-18T01:25:13.181Z",
-    "updatedAt": "2025-04-14T19:43:06.338Z",
+    "updatedAt": "2025-04-14T20:14:32.277Z",
     "__v": 0,
     "quote": null,
     "templateId": "beanandbar"
@@ -36,7 +36,7 @@ const MENU_DATA = {
       "bgImg": null,
       "hide": false,
       "createdAt": "2025-04-14T12:21:12.569Z",
-      "updatedAt": "2025-04-14T19:43:06.604Z",
+      "updatedAt": "2025-04-14T20:14:32.549Z",
       "__v": 0
     },
     {
@@ -48,7 +48,7 @@ const MENU_DATA = {
       "bgImg": null,
       "hide": false,
       "createdAt": "2025-04-14T12:21:12.848Z",
-      "updatedAt": "2025-04-14T19:43:06.869Z",
+      "updatedAt": "2025-04-14T20:14:32.815Z",
       "__v": 0
     },
     {
@@ -60,7 +60,7 @@ const MENU_DATA = {
       "bgImg": null,
       "hide": false,
       "createdAt": "2025-04-14T13:09:04.111Z",
-      "updatedAt": "2025-04-14T19:43:07.140Z",
+      "updatedAt": "2025-04-14T20:14:33.081Z",
       "__v": 0
     },
     {
@@ -72,7 +72,7 @@ const MENU_DATA = {
       "bgImg": null,
       "hide": false,
       "createdAt": "2025-04-14T13:11:43.266Z",
-      "updatedAt": "2025-04-14T19:43:07.405Z",
+      "updatedAt": "2025-04-14T20:14:33.346Z",
       "__v": 0
     },
     {
@@ -84,7 +84,7 @@ const MENU_DATA = {
       "bgImg": null,
       "hide": false,
       "createdAt": "2025-04-14T13:28:54.070Z",
-      "updatedAt": "2025-04-14T19:43:07.671Z",
+      "updatedAt": "2025-04-14T20:14:33.612Z",
       "__v": 0
     }
   ],
@@ -93,25 +93,25 @@ const MENU_DATA = {
       "_id": "676478aeae2975c5d0f40821",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "label": "Cold",
-      "order": 1,
+      "order": 2,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2024-12-19T19:49:02.319Z",
-      "updatedAt": "2025-04-14T19:43:08.990Z",
+      "updatedAt": "2025-04-14T20:14:34.144Z",
       "__v": 0,
       "categoryId": "67fcfdb8908188f42860d65e"
     },
     {
       "_id": "676478aeae2975c5d0f40825",
       "menuId": "66d751cc2dfd45c14807f7cf",
-      "label": "Wiskey",
-      "order": 12,
+      "label": "Whiskey",
+      "order": 13,
       "img": null,
       "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/0040470d-ae3b-4b0c-a2e8-6b430d9acd03.png",
       "hide": false,
       "createdAt": "2024-12-19T19:49:02.782Z",
-      "updatedAt": "2025-04-14T19:43:11.916Z",
+      "updatedAt": "2025-04-14T20:14:37.072Z",
       "__v": 0,
       "categoryId": "67fd08f0908188f42860d6d6"
     },
@@ -120,12 +120,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fcfdb8908188f42860d65e",
       "label": "Hot",
-      "order": 2,
+      "order": 3,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:11:43.540Z",
-      "updatedAt": "2025-04-14T19:43:09.255Z",
+      "updatedAt": "2025-04-14T20:14:34.412Z",
       "__v": 0
     },
     {
@@ -133,12 +133,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fcfdb8908188f42860d65e",
       "label": "Non Alcoholic Drinks",
-      "order": 3,
+      "order": 4,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:11:43.814Z",
-      "updatedAt": "2025-04-14T19:43:09.521Z",
+      "updatedAt": "2025-04-14T20:14:34.678Z",
       "__v": 0
     },
     {
@@ -146,12 +146,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fd08f0908188f42860d6d6",
       "label": "Wine",
-      "order": 7,
+      "order": 8,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:11:44.087Z",
-      "updatedAt": "2025-04-14T19:43:10.586Z",
+      "updatedAt": "2025-04-14T20:14:35.744Z",
       "__v": 0
     },
     {
@@ -159,12 +159,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fd08f0908188f42860d6d6",
       "label": "Vodka",
-      "order": 11,
+      "order": 12,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:11:44.361Z",
-      "updatedAt": "2025-04-14T19:43:11.650Z",
+      "updatedAt": "2025-04-14T20:14:36.807Z",
       "__v": 0
     },
     {
@@ -172,12 +172,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fd08f0908188f42860d6d6",
       "label": "Beer",
-      "order": 6,
+      "order": 7,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:11:44.634Z",
-      "updatedAt": "2025-04-14T19:43:10.320Z",
+      "updatedAt": "2025-04-14T20:14:35.478Z",
       "__v": 0
     },
     {
@@ -185,12 +185,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fd08f0908188f42860d6d6",
       "label": "Cocktails",
-      "order": 10,
+      "order": 11,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:14:32.549Z",
-      "updatedAt": "2025-04-14T19:43:11.385Z",
+      "updatedAt": "2025-04-14T20:14:36.541Z",
       "__v": 0
     },
     {
@@ -198,12 +198,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fd08f0908188f42860d6d6",
       "label": "Champagne",
-      "order": 9,
+      "order": 10,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:14:32.822Z",
-      "updatedAt": "2025-04-14T19:43:11.118Z",
+      "updatedAt": "2025-04-14T20:14:36.276Z",
       "__v": 0
     },
     {
@@ -211,12 +211,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fd08f0908188f42860d6d6",
       "label": "Gin",
-      "order": 8,
+      "order": 9,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:14:33.096Z",
-      "updatedAt": "2025-04-14T19:43:10.853Z",
+      "updatedAt": "2025-04-14T20:14:36.010Z",
       "__v": 0
     },
     {
@@ -224,12 +224,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fcfdb8908188f42860d65c",
       "label": "Breakfast",
-      "order": 18,
+      "order": 19,
       "img": null,
       "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/88f862b1-1d75-455a-8ef6-26de424b4bd3.png",
       "hide": false,
       "createdAt": "2025-04-14T13:14:33.368Z",
-      "updatedAt": "2025-04-14T19:43:13.513Z",
+      "updatedAt": "2025-04-14T20:14:38.669Z",
       "__v": 0
     },
     {
@@ -237,12 +237,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fcfdb8908188f42860d65c",
       "label": "Appetizers",
-      "order": 13,
+      "order": 14,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:14:33.641Z",
-      "updatedAt": "2025-04-14T19:43:12.184Z",
+      "updatedAt": "2025-04-14T20:14:37.338Z",
       "__v": 0
     },
     {
@@ -250,12 +250,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fcfdb8908188f42860d65c",
       "label": "Sandwishes",
-      "order": 16,
+      "order": 17,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:14:33.914Z",
-      "updatedAt": "2025-04-14T19:43:12.981Z",
+      "updatedAt": "2025-04-14T20:14:38.136Z",
       "__v": 0
     },
     {
@@ -263,12 +263,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fcfdb8908188f42860d65c",
       "label": "Salads",
-      "order": 14,
+      "order": 15,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:14:34.188Z",
-      "updatedAt": "2025-04-14T19:43:12.450Z",
+      "updatedAt": "2025-04-14T20:14:37.603Z",
       "__v": 0
     },
     {
@@ -276,12 +276,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fcfdb8908188f42860d65c",
       "label": "Burgers",
-      "order": 15,
+      "order": 16,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:14:34.461Z",
-      "updatedAt": "2025-04-14T19:43:12.716Z",
+      "updatedAt": "2025-04-14T20:14:37.868Z",
       "__v": 0
     },
     {
@@ -289,12 +289,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fcfdb8908188f42860d65c",
       "label": "Platters",
-      "order": 17,
+      "order": 18,
       "img": null,
       "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/44824f3e-44c4-48d8-90ae-a799bb7c78d3.png",
       "hide": false,
       "createdAt": "2025-04-14T13:14:34.733Z",
-      "updatedAt": "2025-04-14T19:43:13.247Z",
+      "updatedAt": "2025-04-14T20:14:38.404Z",
       "__v": 0
     },
     {
@@ -302,12 +302,12 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fd098f908188f42860d6e4",
       "label": "Desserts",
-      "order": 4,
+      "order": 5,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:28:54.343Z",
-      "updatedAt": "2025-04-14T19:43:09.787Z",
+      "updatedAt": "2025-04-14T20:14:34.944Z",
       "__v": 0
     },
     {
@@ -315,12 +315,25 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "categoryId": "67fd0d96908188f42860d79a",
       "label": "Narguile",
-      "order": 5,
+      "order": 6,
       "img": null,
       "bgImg": "",
       "hide": false,
       "createdAt": "2025-04-14T13:28:54.616Z",
-      "updatedAt": "2025-04-14T19:43:10.053Z",
+      "updatedAt": "2025-04-14T20:14:35.210Z",
+      "__v": 0
+    },
+    {
+      "_id": "67fd6add908188f42860dd75",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "categoryId": "67fd08f0908188f42860d6d6",
+      "label": "Specialties",
+      "order": 1,
+      "img": null,
+      "bgImg": "",
+      "hide": false,
+      "createdAt": "2025-04-14T20:06:53.573Z",
+      "updatedAt": "2025-04-14T20:14:33.878Z",
       "__v": 0
     }
   ],
@@ -343,7 +356,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.406Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d732",
@@ -363,7 +376,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.407Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d733",
@@ -383,7 +396,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.407Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d734",
@@ -403,7 +416,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.407Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d735",
@@ -423,7 +436,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.407Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d736",
@@ -443,7 +456,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.407Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d737",
@@ -463,7 +476,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.407Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d738",
@@ -483,7 +496,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.407Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d739",
@@ -503,7 +516,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.407Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d73a",
@@ -523,7 +536,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.408Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d73b",
@@ -543,7 +556,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.408Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d73c",
@@ -563,7 +576,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.408Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d73d",
@@ -583,7 +596,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.408Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d73e",
@@ -603,7 +616,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.408Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0b36908188f42860d73f",
@@ -623,7 +636,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:18:46.408Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d75c",
@@ -643,7 +656,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.819Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d75d",
@@ -663,7 +676,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.819Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d75e",
@@ -683,7 +696,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.819Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d75f",
@@ -703,7 +716,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.819Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d760",
@@ -723,7 +736,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.819Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d761",
@@ -743,7 +756,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.819Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d762",
@@ -763,7 +776,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.820Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d763",
@@ -783,7 +796,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.820Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d764",
@@ -803,7 +816,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.820Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d765",
@@ -823,7 +836,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.820Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c04908188f42860d766",
@@ -843,7 +856,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:22:12.820Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c7d908188f42860d784",
@@ -863,7 +876,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:24:13.897Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c7d908188f42860d785",
@@ -883,7 +896,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:24:13.898Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c7d908188f42860d786",
@@ -903,7 +916,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:24:13.898Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c7d908188f42860d787",
@@ -923,7 +936,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:24:13.898Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c7d908188f42860d788",
@@ -943,7 +956,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:24:13.898Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c7d908188f42860d789",
@@ -963,7 +976,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:24:13.898Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c7d908188f42860d78a",
@@ -983,7 +996,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:24:13.898Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c7d908188f42860d78b",
@@ -1003,7 +1016,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:24:13.898Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0c7d908188f42860d78c",
@@ -1023,7 +1036,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:24:13.899Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0d9b908188f42860d7b0",
@@ -1043,7 +1056,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:28:59.278Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0d9b908188f42860d7b1",
@@ -1063,7 +1076,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:28:59.278Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0d9b908188f42860d7b2",
@@ -1083,7 +1096,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:28:59.278Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0d9b908188f42860d7b3",
@@ -1103,7 +1116,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:28:59.278Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0d9b908188f42860d7b4",
@@ -1123,7 +1136,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:28:59.278Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0d9b908188f42860d7b5",
@@ -1143,7 +1156,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:28:59.278Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0d9b908188f42860d7b6",
@@ -1163,7 +1176,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:28:59.278Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7d7",
@@ -1183,7 +1196,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.444Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7d8",
@@ -1203,7 +1216,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7d9",
@@ -1223,7 +1236,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7da",
@@ -1243,7 +1256,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7db",
@@ -1263,7 +1276,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7dc",
@@ -1283,13 +1296,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7dd",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0990908188f42860d6ea",
-      "label": "Ksara",
+      "label": "Ksara Glass",
       "description": "White - Rose - Red - Marwah",
       "unit": null,
       "order": 1,
@@ -1303,13 +1316,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7de",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0990908188f42860d6ea",
-      "label": "DDT",
+      "label": "DDT Glass",
       "description": "Blue - Rose - Red",
       "unit": null,
       "order": 2,
@@ -1323,13 +1336,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7df",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0990908188f42860d6ea",
-      "label": "Kefraya",
+      "label": "Kefraya Glass",
       "description": "White - Rose - Red",
       "unit": null,
       "order": 3,
@@ -1343,13 +1356,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7e0",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d701",
-      "label": "Gordons",
+      "label": "Gordons Glass",
       "description": null,
       "unit": null,
       "order": 1,
@@ -1363,13 +1376,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7e1",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d701",
-      "label": "Hendricks",
+      "label": "Hendricks Glass",
       "description": null,
       "unit": null,
       "order": 2,
@@ -1383,7 +1396,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7e2",
@@ -1403,7 +1416,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd0f72908188f42860d7e3",
@@ -1423,47 +1436,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:36:50.445Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
-    },
-    {
-      "_id": "67fd1136908188f42860d804",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
-      "label": "Gin",
-      "description": "Passion Fruit - Lychee - Blueberry",
-      "unit": null,
-      "order": 1,
-      "price": 5,
-      "img": null,
-      "bgImg": null,
-      "hide": false,
-      "calories": null,
-      "is_Starred": false,
-      "is_New": false,
-      "sizes": [],
-      "__v": 0,
-      "createdAt": "2025-04-14T13:44:22.513Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
-    },
-    {
-      "_id": "67fd1136908188f42860d805",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
-      "label": "Martini",
-      "description": "Passion Fruit - Lychee - Blueberry",
-      "unit": null,
-      "order": 2,
-      "price": 5,
-      "img": null,
-      "bgImg": null,
-      "hide": false,
-      "calories": null,
-      "is_Starred": false,
-      "is_New": false,
-      "sizes": [],
-      "__v": 0,
-      "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d806",
@@ -1472,7 +1445,7 @@ const MENU_DATA = {
       "label": "Gin Basil",
       "description": null,
       "unit": null,
-      "order": 3,
+      "order": 8,
       "price": 5,
       "img": null,
       "bgImg": null,
@@ -1483,7 +1456,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d807",
@@ -1492,7 +1465,7 @@ const MENU_DATA = {
       "label": "Margarita",
       "description": null,
       "unit": null,
-      "order": 4,
+      "order": 9,
       "price": 5,
       "img": null,
       "bgImg": null,
@@ -1503,7 +1476,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d808",
@@ -1512,7 +1485,7 @@ const MENU_DATA = {
       "label": "Midori Sour",
       "description": null,
       "unit": null,
-      "order": 5,
+      "order": 10,
       "price": 5,
       "img": null,
       "bgImg": null,
@@ -1523,7 +1496,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d809",
@@ -1532,7 +1505,7 @@ const MENU_DATA = {
       "label": "Mojito",
       "description": null,
       "unit": null,
-      "order": 6,
+      "order": 11,
       "price": 5,
       "img": null,
       "bgImg": null,
@@ -1543,7 +1516,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d80a",
@@ -1552,7 +1525,7 @@ const MENU_DATA = {
       "label": "Jamaica",
       "description": null,
       "unit": null,
-      "order": 7,
+      "order": 12,
       "price": 5,
       "img": null,
       "bgImg": null,
@@ -1563,113 +1536,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d80b",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a38908188f42860d6fd",
       "label": "Blue Hawaii",
-      "description": null,
-      "unit": null,
-      "order": 8,
-      "price": 6,
-      "img": null,
-      "bgImg": null,
-      "hide": false,
-      "calories": null,
-      "is_Starred": false,
-      "is_New": false,
-      "sizes": [],
-      "__v": 0,
-      "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
-    },
-    {
-      "_id": "67fd1136908188f42860d80c",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
-      "label": "Pina Colada",
-      "description": null,
-      "unit": null,
-      "order": 9,
-      "price": 6,
-      "img": null,
-      "bgImg": null,
-      "hide": false,
-      "calories": null,
-      "is_Starred": false,
-      "is_New": false,
-      "sizes": [],
-      "__v": 0,
-      "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
-    },
-    {
-      "_id": "67fd1136908188f42860d80d",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
-      "label": "Bullfrog",
-      "description": null,
-      "unit": null,
-      "order": 10,
-      "price": 6,
-      "img": null,
-      "bgImg": null,
-      "hide": false,
-      "calories": null,
-      "is_Starred": false,
-      "is_New": false,
-      "sizes": [],
-      "__v": 0,
-      "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
-    },
-    {
-      "_id": "67fd1136908188f42860d80e",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
-      "label": "Take Me Home",
-      "description": null,
-      "unit": null,
-      "order": 11,
-      "price": 6,
-      "img": null,
-      "bgImg": null,
-      "hide": false,
-      "calories": null,
-      "is_Starred": false,
-      "is_New": false,
-      "sizes": [],
-      "__v": 0,
-      "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
-    },
-    {
-      "_id": "67fd1136908188f42860d80f",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
-      "label": "Coba Libre",
-      "description": null,
-      "unit": null,
-      "order": 12,
-      "price": 6,
-      "img": null,
-      "bgImg": null,
-      "hide": false,
-      "calories": null,
-      "is_Starred": false,
-      "is_New": false,
-      "sizes": [],
-      "__v": 0,
-      "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
-    },
-    {
-      "_id": "67fd1136908188f42860d810",
-      "menuId": "66d751cc2dfd45c14807f7cf",
-      "subcategoryId": "67fd0a38908188f42860d6fd",
-      "label": "Long Island",
       "description": null,
       "unit": null,
       "order": 13,
@@ -1683,13 +1556,113 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd1136908188f42860d80c",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Pina Colada",
+      "description": null,
+      "unit": null,
+      "order": 14,
+      "price": 6,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T13:44:22.514Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd1136908188f42860d80d",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Bullfrog",
+      "description": null,
+      "unit": null,
+      "order": 15,
+      "price": 6,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T13:44:22.514Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd1136908188f42860d80e",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Take Me Home",
+      "description": null,
+      "unit": null,
+      "order": 16,
+      "price": 6,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T13:44:22.514Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd1136908188f42860d80f",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Coba Libre",
+      "description": null,
+      "unit": null,
+      "order": 17,
+      "price": 6,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T13:44:22.514Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd1136908188f42860d810",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Long Island",
+      "description": null,
+      "unit": null,
+      "order": 18,
+      "price": 6,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T13:44:22.514Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d811",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0990908188f42860d6ec",
-      "label": "Smirnoff",
+      "label": "Smirnoff Glass",
       "description": null,
       "unit": null,
       "order": 1,
@@ -1703,13 +1676,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d812",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0990908188f42860d6ec",
-      "label": "Russian Std.",
+      "label": "Russian Std. Glass",
       "description": null,
       "unit": null,
       "order": 2,
@@ -1723,13 +1696,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d813",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0990908188f42860d6ec",
-      "label": "Stolichnaya Red",
+      "label": "Stolichnaya Red Glass",
       "description": null,
       "unit": null,
       "order": 3,
@@ -1743,13 +1716,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.514Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d814",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0990908188f42860d6ec",
-      "label": "Stolichnaya Black",
+      "label": "Stolichnaya Black Glass",
       "description": null,
       "unit": null,
       "order": 4,
@@ -1763,13 +1736,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.515Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d815",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0990908188f42860d6ec",
-      "label": "Belvedere",
+      "label": "Belvedere Glass",
       "description": null,
       "unit": null,
       "order": 5,
@@ -1783,13 +1756,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.515Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1136908188f42860d816",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0990908188f42860d6ec",
-      "label": "Grey Goose",
+      "label": "Grey Goose Glass",
       "description": null,
       "unit": null,
       "order": 6,
@@ -1803,13 +1776,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:44:22.515Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd11ff908188f42860d85e",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "676478aeae2975c5d0f40825",
-      "label": "Jameson",
+      "label": "Jameson Glass",
       "description": null,
       "unit": null,
       "order": 1,
@@ -1823,13 +1796,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:47:43.619Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd11ff908188f42860d85f",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "676478aeae2975c5d0f40825",
-      "label": "Red Label",
+      "label": "Red Label Glass",
       "description": null,
       "unit": null,
       "order": 2,
@@ -1843,13 +1816,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:47:43.619Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd11ff908188f42860d860",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "676478aeae2975c5d0f40825",
-      "label": "Black Label",
+      "label": "Black Label Glass",
       "description": null,
       "unit": null,
       "order": 3,
@@ -1863,13 +1836,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:47:43.619Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd11ff908188f42860d861",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "676478aeae2975c5d0f40825",
-      "label": "Chivas",
+      "label": "Chivas Glass",
       "description": null,
       "unit": null,
       "order": 4,
@@ -1883,13 +1856,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:47:43.619Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd11ff908188f42860d862",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "676478aeae2975c5d0f40825",
-      "label": "Jack Daniel",
+      "label": "Jack Daniel Glass",
       "description": null,
       "unit": null,
       "order": 5,
@@ -1903,13 +1876,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:47:43.619Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd11ff908188f42860d863",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "676478aeae2975c5d0f40825",
-      "label": "Double Black",
+      "label": "Double Black Glass",
       "description": null,
       "unit": null,
       "order": 6,
@@ -1923,13 +1896,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:47:43.619Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd11ff908188f42860d864",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "676478aeae2975c5d0f40825",
-      "label": "Glenfiddich",
+      "label": "Glenfiddich Glass",
       "description": null,
       "unit": null,
       "order": 7,
@@ -1943,13 +1916,13 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:47:43.619Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd11ff908188f42860d865",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "676478aeae2975c5d0f40825",
-      "label": "Gold Label",
+      "label": "Gold Label Glass",
       "description": null,
       "unit": null,
       "order": 8,
@@ -1963,7 +1936,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:47:43.619Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd12c2908188f42860d886",
@@ -1983,14 +1956,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:50:58.232Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd12c2908188f42860d887",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d705",
       "label": "Jalapeño Bites",
-      "description": "( 6 Pcs )",
+      "description": "6 Pcs",
       "unit": null,
       "order": 2,
       "price": 5,
@@ -2003,14 +1976,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:50:58.232Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd12c2908188f42860d888",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d705",
       "label": "Mozarella Sticks",
-      "description": "( 6 Pcs )",
+      "description": "6 Pcs",
       "unit": null,
       "order": 3,
       "price": 5,
@@ -2023,14 +1996,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:50:58.232Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd12c2908188f42860d889",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d705",
       "label": "Shrimp Pane",
-      "description": "( 6 Pcs )",
+      "description": "6 Pcs",
       "unit": null,
       "order": 4,
       "price": 5,
@@ -2043,14 +2016,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:50:58.232Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd12c2908188f42860d88a",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d705",
       "label": "Chicken Fingers",
-      "description": "( 6 Pcs )",
+      "description": "6 Pcs",
       "unit": null,
       "order": 5,
       "price": 4,
@@ -2063,14 +2036,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:50:58.233Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd12c2908188f42860d88b",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d705",
       "label": "Rakakat Mix",
-      "description": "( 6 Pcs )",
+      "description": "6 Pcs",
       "unit": null,
       "order": 6,
       "price": 5,
@@ -2083,14 +2056,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:50:58.233Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd12c2908188f42860d88c",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d705",
       "label": "Pizza",
-      "description": "( 6 Pcs )",
+      "description": "6 Pcs",
       "unit": null,
       "order": 7,
       "price": 5,
@@ -2103,7 +2076,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:50:58.233Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd12c2908188f42860d88d",
@@ -2123,7 +2096,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:50:58.233Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd12c2908188f42860d88e",
@@ -2143,7 +2116,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:50:58.233Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd12c2908188f42860d88f",
@@ -2163,7 +2136,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:50:58.233Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8b0",
@@ -2183,7 +2156,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.024Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8b1",
@@ -2203,7 +2176,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.024Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8b2",
@@ -2223,7 +2196,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8b3",
@@ -2243,7 +2216,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8b4",
@@ -2263,7 +2236,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8b5",
@@ -2283,7 +2256,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8b6",
@@ -2303,7 +2276,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8b7",
@@ -2323,7 +2296,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8b8",
@@ -2343,7 +2316,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8b9",
@@ -2363,7 +2336,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8ba",
@@ -2383,7 +2356,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8bb",
@@ -2403,7 +2376,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8bc",
@@ -2423,7 +2396,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8bd",
@@ -2443,7 +2416,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8be",
@@ -2463,7 +2436,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8bf",
@@ -2483,7 +2456,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.025Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8c0",
@@ -2503,7 +2476,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.026Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8c1",
@@ -2523,7 +2496,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.026Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8c2",
@@ -2543,7 +2516,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.026Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1407908188f42860d8c3",
@@ -2563,14 +2536,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T13:56:23.026Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1556908188f42860d8e4",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d703",
       "label": "Lahem b ajin",
-      "description": "(5 Pcs)",
+      "description": "5 Pcs",
       "unit": null,
       "order": 1,
       "price": 5,
@@ -2583,14 +2556,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:01:58.638Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1556908188f42860d8e5",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d703",
       "label": "Mini Jebne",
-      "description": "(6 Pcs)",
+      "description": "6 Pcs",
       "unit": null,
       "order": 2,
       "price": 2,
@@ -2603,14 +2576,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:01:58.638Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1556908188f42860d8e6",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d703",
       "label": "Mini Zaatar",
-      "description": "(6 Pcs)",
+      "description": "6 Pcs",
       "unit": null,
       "order": 3,
       "price": 1,
@@ -2623,14 +2596,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:01:58.638Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1556908188f42860d8e7",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d703",
       "label": "Mini Labne",
-      "description": "(6 Pcs)",
+      "description": "6 Pcs",
       "unit": null,
       "order": 4,
       "price": 1.5,
@@ -2643,7 +2616,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:01:58.639Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1556908188f42860d8e8",
@@ -2663,14 +2636,14 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:01:58.639Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1556908188f42860d8e9",
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d703",
       "label": "Eggs",
-      "description": "(3 eggs)",
+      "description": "3 eggs",
       "unit": null,
       "order": 6,
       "price": 3,
@@ -2683,7 +2656,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:01:58.639Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1556908188f42860d8ea",
@@ -2703,7 +2676,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:01:58.639Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1556908188f42860d8eb",
@@ -2723,7 +2696,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:01:58.639Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1556908188f42860d8ec",
@@ -2743,7 +2716,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:01:58.639Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd1556908188f42860d8ed",
@@ -2763,7 +2736,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:01:58.639Z",
-      "updatedAt": "2025-04-14T19:43:13.779Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd15c2908188f42860d91e",
@@ -2783,7 +2756,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T14:03:46.131Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd594b908188f42860db27",
@@ -2803,7 +2776,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T18:51:55.494Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd594b908188f42860db28",
@@ -2823,7 +2796,7 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T18:51:55.494Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
     },
     {
       "_id": "67fd594b908188f42860db29",
@@ -2843,7 +2816,567 @@ const MENU_DATA = {
       "sizes": [],
       "__v": 0,
       "createdAt": "2025-04-14T18:51:55.494Z",
-      "updatedAt": "2025-04-14T19:43:13.778Z"
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6956908188f42860dd3b",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0990908188f42860d6ea",
+      "label": "Ksara Btl",
+      "description": "White - Rose - Red - Marwah",
+      "unit": null,
+      "order": 4,
+      "price": 20,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:00:22.589Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6956908188f42860dd3c",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0990908188f42860d6ea",
+      "label": "DDT Btl",
+      "description": "Blue - Rose - Red",
+      "unit": null,
+      "order": 5,
+      "price": 20,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:00:22.589Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6956908188f42860dd3d",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0990908188f42860d6ea",
+      "label": "Kefraya Btl",
+      "description": "White - Rose - Red",
+      "unit": null,
+      "order": 6,
+      "price": 20,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:00:22.589Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6a7f908188f42860dd5e",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Passion Fruit Martini",
+      "description": null,
+      "unit": null,
+      "order": 1,
+      "price": 5,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:05:19.930Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6a7f908188f42860dd5f",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Lychee Martini",
+      "description": null,
+      "unit": null,
+      "order": 2,
+      "price": 5,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:05:19.930Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6a7f908188f42860dd60",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Blueberry Martini",
+      "description": null,
+      "unit": null,
+      "order": 3,
+      "price": 5,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:05:19.930Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6a7f908188f42860dd61",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Espresso Martini",
+      "description": null,
+      "unit": null,
+      "order": 4,
+      "price": 5,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:05:19.930Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6a7f908188f42860dd62",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Passion Fruit Gin",
+      "description": null,
+      "unit": null,
+      "order": 5,
+      "price": 5,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:05:19.930Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6a7f908188f42860dd63",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Lychee Gin",
+      "description": null,
+      "unit": null,
+      "order": 6,
+      "price": 5,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:05:19.930Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6a7f908188f42860dd64",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a38908188f42860d6fd",
+      "label": "Blueberry Gin",
+      "description": null,
+      "unit": null,
+      "order": 7,
+      "price": 5,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:05:19.930Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6ae2908188f42860dd89",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd6add908188f42860dd75",
+      "label": "Chocolate",
+      "description": null,
+      "unit": null,
+      "order": 1,
+      "price": 6,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:06:58.640Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6ae2908188f42860dd8a",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd6add908188f42860dd75",
+      "label": "Caramel",
+      "description": null,
+      "unit": null,
+      "order": 2,
+      "price": 6,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:06:58.640Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6bc6908188f42860ddac",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a39908188f42860d701",
+      "label": "Gordons Btl",
+      "description": null,
+      "unit": null,
+      "order": 3,
+      "price": 40,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:10:46.892Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6bc6908188f42860ddad",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0a39908188f42860d701",
+      "label": "Hendricks Btl",
+      "description": null,
+      "unit": null,
+      "order": 4,
+      "price": 110,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:10:46.892Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6bc6908188f42860ddae",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0990908188f42860d6ec",
+      "label": "Smirnoff Btl",
+      "description": null,
+      "unit": null,
+      "order": 7,
+      "price": 35,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:10:46.892Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6bc6908188f42860ddaf",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0990908188f42860d6ec",
+      "label": "Russian Std. Btl",
+      "description": null,
+      "unit": null,
+      "order": 8,
+      "price": 35,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:10:46.892Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6bc6908188f42860ddb0",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0990908188f42860d6ec",
+      "label": "Stolichnaya Red Btl",
+      "description": null,
+      "unit": null,
+      "order": 9,
+      "price": 35,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:10:46.892Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6bc6908188f42860ddb1",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0990908188f42860d6ec",
+      "label": "Stolichnaya Black Btl",
+      "description": null,
+      "unit": null,
+      "order": 10,
+      "price": 45,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:10:46.892Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6bc6908188f42860ddb2",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0990908188f42860d6ec",
+      "label": "Belvedere Btl",
+      "description": null,
+      "unit": null,
+      "order": 11,
+      "price": 90,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:10:46.892Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6bc6908188f42860ddb3",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd0990908188f42860d6ec",
+      "label": "Grey Goose Btl",
+      "description": null,
+      "unit": null,
+      "order": 12,
+      "price": 90,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:10:46.892Z",
+      "updatedAt": "2025-04-14T20:14:39.204Z"
+    },
+    {
+      "_id": "67fd6cae908188f42860ddd5",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "676478aeae2975c5d0f40825",
+      "label": "Jameson Btl",
+      "description": null,
+      "unit": null,
+      "order": 1744661494679,
+      "price": 45,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:14:38.936Z",
+      "updatedAt": "2025-04-14T20:14:38.936Z"
+    },
+    {
+      "_id": "67fd6cae908188f42860ddd6",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "676478aeae2975c5d0f40825",
+      "label": "Red Label Btl",
+      "description": null,
+      "unit": null,
+      "order": 1744661521061,
+      "price": 45,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:14:38.936Z",
+      "updatedAt": "2025-04-14T20:14:38.936Z"
+    },
+    {
+      "_id": "67fd6cae908188f42860ddd7",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "676478aeae2975c5d0f40825",
+      "label": "Black Label Btl",
+      "description": null,
+      "unit": null,
+      "order": 1744661563659,
+      "price": 60,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:14:38.936Z",
+      "updatedAt": "2025-04-14T20:14:38.936Z"
+    },
+    {
+      "_id": "67fd6cae908188f42860ddd8",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "676478aeae2975c5d0f40825",
+      "label": "Chivas Btl",
+      "description": null,
+      "unit": null,
+      "order": 1744661572442,
+      "price": 60,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:14:38.936Z",
+      "updatedAt": "2025-04-14T20:14:38.936Z"
+    },
+    {
+      "_id": "67fd6cae908188f42860ddd9",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "676478aeae2975c5d0f40825",
+      "label": "Jack Daniel Btl",
+      "description": null,
+      "unit": null,
+      "order": 1744661588428,
+      "price": 60,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:14:38.936Z",
+      "updatedAt": "2025-04-14T20:14:38.936Z"
+    },
+    {
+      "_id": "67fd6cae908188f42860ddda",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "676478aeae2975c5d0f40825",
+      "label": "Glenfiddich Btl",
+      "description": null,
+      "unit": null,
+      "order": 1744661606112,
+      "price": 100,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:14:38.936Z",
+      "updatedAt": "2025-04-14T20:14:38.936Z"
+    },
+    {
+      "_id": "67fd6cae908188f42860dddb",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "676478aeae2975c5d0f40825",
+      "label": "Double Black Btl",
+      "description": null,
+      "unit": null,
+      "order": 1744661619909,
+      "price": 110,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:14:38.936Z",
+      "updatedAt": "2025-04-14T20:14:38.936Z"
+    },
+    {
+      "_id": "67fd6cae908188f42860dddc",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "676478aeae2975c5d0f40825",
+      "label": "Gold Label Btl",
+      "description": null,
+      "unit": null,
+      "order": 1744661631586,
+      "price": 120,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": false,
+      "sizes": [],
+      "__v": 0,
+      "createdAt": "2025-04-14T20:14:38.936Z",
+      "updatedAt": "2025-04-14T20:14:38.936Z"
     }
   ]
 };
