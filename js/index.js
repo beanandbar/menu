@@ -237,6 +237,14 @@ function createMenu(categoriesArray) {
       });
 
       subDiv.appendChild(itemsWrapper);
+
+      if (sub.note) {
+        const noteDiv = document.createElement("div");
+        noteDiv.className = "subcategory-note";
+        noteDiv.innerText = sub.note;
+        subDiv.appendChild(noteDiv);
+      }
+
       sectionContainer.appendChild(subDiv);
     });
   }

@@ -131,6 +131,15 @@ a {
   word-break: break-word;
 }
 
+.subcategory-note {
+  font-size: 0.9rem;
+  color: var(--color-accent);
+  margin-top: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  text-align: center;
+}
+
 /* === ITEM GRID & CARD === */
 .minimal-list {
   display: flex;
@@ -256,13 +265,13 @@ a {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   #menu-sections {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   #menu-sections {
     grid-template-columns: 1fr 1fr 1fr;
   }
