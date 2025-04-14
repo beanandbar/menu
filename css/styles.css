@@ -154,6 +154,15 @@ a {
   white-space: nowrap;
 }
 
+.item-unit {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-left: 10px;
+  text-align: justify;
+}
+
 .item-header {
   display: flex;
   justify-content: space-between;

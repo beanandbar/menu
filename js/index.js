@@ -214,7 +214,8 @@ function createMenu(categoriesArray) {
             ? '<span class="item-new">New</span>'
             : item.is_Starred
             ? '<span class="item-new">Best Seller</span>'
-            : "");
+            : "") +
+          (item.unit ? `<span class="item-unit">${item.unit}</span>` : "");
 
         const price = document.createElement("span");
         price.className = "item-price";
