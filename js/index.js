@@ -208,8 +208,13 @@ function createMenu(categoriesArray) {
 
         const name = document.createElement("span");
         name.className = "item-name";
-        name.textContent =
-          item.label + (item.is_New ? " 🌟" : item.is_Starred ? " ⭐" : "");
+        name.innerHTML =
+          item.label +
+          (item.is_New
+            ? '<span class="item-new">New</span>'
+            : item.is_Starred
+            ? '<span class="item-new">Best Seller</span>'
+            : "");
 
         const price = document.createElement("span");
         price.className = "item-price";

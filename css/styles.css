@@ -143,6 +143,17 @@ a {
   padding: 0.2rem 0;
 }
 
+.item-new {
+  background: var(--color-accent);
+  border-radius: 10px;
+  padding: 0 8px;
+  font-size: 0.8rem;
+  margin: 0 0 0 8px;
+  color: var(--color-bg);
+  font-weight: bold;
+  white-space: nowrap;
+}
+
 .item-header {
   display: flex;
   justify-content: space-between;
