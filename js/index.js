@@ -55,9 +55,9 @@ function addMenuInfo() {
 
   if (store.storeLogo) {
     header.innerHTML += `<img src="${store.storeLogo}" alt="Store Logo" loading="lazy">`;
+  } else {
+    header.innerHTML += `<h1>${store.storeName}</h1>`;
   }
-
-  header.innerHTML += `<h1>${store.storeName}</h1>`;
 
   if (store.aboutUs) {
     header.innerHTML += `<p>${store.aboutUs}</p>`;
