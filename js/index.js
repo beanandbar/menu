@@ -211,11 +211,11 @@ function createMenu(categoriesArray) {
         name.innerHTML =
           item.label +
           (item.is_New
-            ? '<span class="item-new">New</span>'
+            ? ' <span class="item-new">New</span>'
             : item.is_Starred
-            ? '<span class="item-new">Best Seller</span>'
+            ? ' <span class="item-new">Best Seller</span>'
             : "") +
-          (item.unit ? `<span class="item-unit">${item.unit}</span>` : "");
+          (item.unit ? ` <span class="item-unit">${item.unit}</span>` : "");
 
         const price = document.createElement("span");
         price.className = "item-price";
