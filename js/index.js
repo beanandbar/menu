@@ -165,7 +165,7 @@ function createMenu(categoriesArray) {
       setTimeout(() => {
         const toolbarHeight =
           document.getElementById("category-toolbar")?.offsetHeight || 0;
-        const yOffset = -toolbarHeight - 16; // Add a bit of space
+        const yOffset = -toolbarHeight - 16;
         const y =
           sectionContainer.getBoundingClientRect().top +
           window.pageYOffset +
@@ -178,7 +178,15 @@ function createMenu(categoriesArray) {
     // Set active class on toolbar buttons
     const buttons = toolbar.querySelectorAll("button");
     buttons.forEach((btn) => btn.classList.remove("active"));
-    if (clickedButton) clickedButton.classList.add("active");
+    if (clickedButton) {
+      clickedButton.classList.add("active");
+
+      clickedButton.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+        inline: "center",
+      });
+    }
 
     category.subcategories.forEach((sub) => {
       if (sub.hide || !sub.items?.length) return;
@@ -195,7 +203,7 @@ function createMenu(categoriesArray) {
       subDiv.appendChild(subHeader);
 
       const itemsWrapper = document.createElement("div");
-      itemsWrapper.className = "items-wrapper minimal-list"; // Add custom class
+      itemsWrapper.className = "items-wrapper minimal-list";
 
       sub.items.forEach((item) => {
         if (item.hide) return;
@@ -247,6 +255,53 @@ function createMenu(categoriesArray) {
 
       sectionContainer.appendChild(subDiv);
     });
+  }
+
+  // Swipe handling
+  let startX = 0;
+  let endX = 0;
+
+  sectionContainer.addEventListener("touchstart", (e) => {
+    startX = e.changedTouches[0].screenX;
+  });
+
+  sectionContainer.addEventListener("touchend", (e) => {
+    endX = e.changedTouches[0].screenX;
+    handleSwipe();
+  });
+
+  function handleSwipe() {
+    const threshold = 50;
+    if (Math.abs(startX - endX) < threshold) return;
+
+    const currentIndex = categoriesArray.findIndex(
+      (c) =>
+        c._id === toolbar.querySelector("button.active")?.dataset.categoryId
+    );
+
+    let nextIndex = null;
+
+    if (startX > endX) {
+      // Swiped left → next
+      nextIndex = categoriesArray.findIndex((c, i) => i > currentIndex);
+    } else {
+      // Swiped right → previous
+      const reversed = [...categoriesArray].reverse();
+      const prevCandidates = reversed.filter(
+        (c) => categoriesArray.indexOf(c) < currentIndex
+      );
+      if (prevCandidates.length) {
+        nextIndex = categoriesArray.indexOf(prevCandidates[0]);
+      }
+    }
+
+    if (nextIndex !== null && nextIndex >= 0 && categoriesArray[nextIndex]) {
+      const nextCat = categoriesArray[nextIndex];
+      const nextBtn = toolbar.querySelector(
+        `button[data-category-id="${nextCat._id}"]`
+      );
+      renderCategorySections(nextCat, nextBtn);
+    }
   }
 }
 

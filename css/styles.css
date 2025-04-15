@@ -219,13 +219,7 @@ a {
 #menu-sections {
   column-count: 1;
   column-gap: 3rem;
-  min-height: calc(100dvh - 145px);
-  transition: opacity var(--transition);
-  opacity: 1;
-}
-
-#menu-sections.hidden {
-  opacity: 0;
+  min-height: calc(100dvh - 130px);
 }
 
 /* === FOOTER === */
