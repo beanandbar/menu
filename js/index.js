@@ -165,11 +165,8 @@ function createMenu(categoriesArray) {
       setTimeout(() => {
         const toolbarHeight =
           document.getElementById("category-toolbar")?.offsetHeight || 0;
-        const yOffset = -toolbarHeight - 16;
-        const y =
-          sectionContainer.getBoundingClientRect().top +
-          window.pageYOffset +
-          yOffset;
+
+        const y = sectionContainer.offsetTop - toolbarHeight;
 
         window.scrollTo({ top: y, behavior: "smooth" });
       }, 50);
@@ -271,7 +268,7 @@ function createMenu(categoriesArray) {
   });
 
   function handleSwipe() {
-    const threshold = 50;
+    const threshold = 80;
     if (Math.abs(startX - endX) < threshold) return;
 
     const currentIndex = categoriesArray.findIndex(

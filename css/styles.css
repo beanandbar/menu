@@ -78,7 +78,6 @@ a {
   justify-content: flex-start;
   gap: 0.5rem;
   padding: 0.5rem 0;
-  margin-bottom: 1.5rem;
   border-bottom: 1px solid var(--color-surface);
 }
 
@@ -217,9 +216,10 @@ a {
 
 /* === TRANSITION SECTION === */
 #menu-sections {
+  padding-top: 1.5rem;
   column-count: 1;
   column-gap: 3rem;
-  min-height: calc(100dvh - 130px);
+  min-height: calc(100dvh - 113px - 1.5rem);
 }
 
 /* === FOOTER === */
@@ -230,6 +230,7 @@ a {
   color: var(--color-muted);
   border-top: 1px solid var(--color-surface);
   background-color: var(--color-surface);
+  height: 20px;
 }
 
 .menu-footer strong,
