@@ -256,20 +256,29 @@ function createMenu(categoriesArray) {
 
   // Swipe handling
   let startX = 0;
+  let startY = 0;
   let endX = 0;
+  let endY = 0;
 
   sectionContainer.addEventListener("touchstart", (e) => {
     startX = e.changedTouches[0].screenX;
+    startY = e.changedTouches[0].screenY;
   });
 
   sectionContainer.addEventListener("touchend", (e) => {
     endX = e.changedTouches[0].screenX;
+    endY = e.changedTouches[0].screenY;
     handleSwipe();
   });
 
   function handleSwipe() {
-    const threshold = 80;
-    if (Math.abs(startX - endX) < threshold) return;
+    const threshold = 50;
+    const verticalThreshold = 30;
+
+    const deltaX = Math.abs(startX - endX);
+    const deltaY = Math.abs(startY - endY);
+
+    if (deltaX < threshold || deltaY > verticalThreshold) return;
 
     const currentIndex = categoriesArray.findIndex(
       (c) =>
