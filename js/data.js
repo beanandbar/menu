@@ -247,7 +247,8 @@ const MENU_DATA = {
       "order": 5,
       "img": null,
       "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/3423e603-3989-4d3c-a299-405da8f677b5.png",
-      "hide": false
+      "hide": true,
+      "note": null
     },
     {
       "_id": "67fd0d96908188f42860d79e",
@@ -1932,7 +1933,7 @@ const MENU_DATA = {
       "price": 9,
       "img": null,
       "bgImg": null,
-      "hide": false,
+      "hide": true,
       "calories": null,
       "is_Starred": false,
       "is_New": false,
