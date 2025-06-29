@@ -247,7 +247,7 @@ const MENU_DATA = {
       "order": 5,
       "img": null,
       "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/3423e603-3989-4d3c-a299-405da8f677b5.png",
-      "hide": true,
+      "hide": false,
       "note": null
     },
     {
