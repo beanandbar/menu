@@ -29,7 +29,7 @@ const MENU_DATA = {
       "menuId": "66d751cc2dfd45c14807f7cf",
       "label": "Food",
       "order": 1,
-      "img": null,
+      "img": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/53aa5c99-f998-4ff0-a944-4b0a7897ed01.png",
       "bgImg": null,
       "hide": false
     },
@@ -2966,7 +2966,7 @@ const MENU_DATA = {
       "label": "BBQ Chicken Sandwich",
       "description": null,
       "unit": null,
-      "order": 1752169483335,
+      "order": 6,
       "price": 8,
       "img": null,
       "bgImg": null,
