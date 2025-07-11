@@ -184,8 +184,8 @@ const MENU_DATA = {
       "order": 14,
       "img": null,
       "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/88f862b1-1d75-455a-8ef6-26de424b4bd3.png",
-      "hide": true,
-      "note": "Breakfast items are only available from 9:30 AM to 1 PM"
+      "hide": false,
+      "note": "Breakfast items are only available from 10 AM to 1 PM\nFrom Friday to Monday"
     },
     {
       "_id": "67fd0a39908188f42860d705",
