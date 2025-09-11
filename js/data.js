@@ -3026,6 +3026,23 @@ const MENU_DATA = {
       "is_Starred": false,
       "is_New": false,
       "sizes": []
+    },
+    {
+      "_id": "68c31582f7892453ef0255b8",
+      "menuId": "66d751cc2dfd45c14807f7cf",
+      "subcategoryId": "67fd098f908188f42860d6e8",
+      "label": "Kiwi Splash",
+      "description": null,
+      "unit": null,
+      "order": 1757615486632,
+      "price": 4,
+      "img": null,
+      "bgImg": null,
+      "hide": false,
+      "calories": null,
+      "is_Starred": false,
+      "is_New": true,
+      "sizes": []
     }
   ]
 };
