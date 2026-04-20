@@ -73,7 +73,7 @@ function addMenuInfo(store) {
   header.className = "store-header";
 
   if (store.storeLogo) {
-    header.innerHTML += `<img src="${store.storeLogo}" alt="Store Logo" loading="lazy">`;
+    header.innerHTML += `<img src="${store.storeLogo}" alt="Store Logo">`;
   } else {
     header.innerHTML += `<h1>${store.storeName}</h1>`;
   }
