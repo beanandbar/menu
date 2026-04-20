@@ -1,30 +1,63 @@
-const categoriesArray = MENU_DATA.categories
-  .filter((c) => !c.hide)
-  .map((category) => {
-    const subcategories = MENU_DATA.sub_categories
-      .filter((sub) => !sub.hide && sub.categoryId === category._id)
-      .map((sub) => {
-        const items = MENU_DATA.items
-          .filter((item) => !item.hide && item.subcategoryId === sub._id)
-          .sort((a, b) => a.order - b.order);
+/* ==========================================================
+   THE BEAN & BAR — Menu Script  (powered by KSS_ENGINE)
+   ========================================================== */
 
-        return {
-          ...sub,
-          items,
-        };
-      })
-      .filter((sub) => sub.items.length > 0)
-      .sort((a, b) => a.order - b.order);
+/* ── 1. Engine boot ────────────────────────────────────── */
+KSS_ENGINE.init({
+  serviceId: "66d751cc2dfd45c14807f7cf",
+  type: "menu",
+  filterEmpty: true,
+  fallbackPath: "./data/menu.json",
+  fallbackOnly: false,
+});
 
-    return {
-      ...category,
-      subcategories,
-    };
-  })
-  .filter((c) => c.subcategories.length > 0)
-  .sort((a, b) => a.order - b.order);
+/* ── 2. Error handling ─────────────────────────────────── */
+KSS_ENGINE.error.subscribe(function (err) {
+  if (!err) return;
+  var overlay = document.getElementById("loader-overlay");
+  if (overlay) {
+    var spinner = overlay.querySelector(".loader-spinner");
+    var text = overlay.querySelector(".loader-text");
+    if (spinner) spinner.style.display = "none";
+    if (text) text.textContent = "Failed to load menu. Please refresh.";
+  }
+});
 
-function addMenuInfo() {
+/* ── 3. Build UI when data is ready ────────────────────── */
+KSS_ENGINE.onReady(function (menuData) {
+  var store = menuData.store;
+  KSS_ENGINE.setupPageMeta(store);
+
+  var categoriesArray = menuData.categories.map(function (cat) {
+    return Object.assign({}, cat, {
+      subCategories: (cat.subCategories || []).map(function (sub) {
+        return Object.assign({}, sub);
+      }),
+    });
+  });
+
+  addMenuInfo(store);
+  createMenu(categoriesArray, store);
+
+  KSS_ENGINE.waitForImages().then(function () {
+    hideLoader();
+  });
+});
+
+/* ── Hide loader & show content ────────────────────────── */
+function hideLoader() {
+  var container = document.getElementById("menu-container");
+  var overlay = document.getElementById("loader-overlay");
+  if (container) container.style.display = "";
+  if (!overlay) return;
+  overlay.classList.add("hidden");
+  setTimeout(function () {
+    overlay.remove();
+  }, 550);
+}
+
+/* ── Menu info / header ────────────────────────────────── */
+function addMenuInfo(store) {
   const startYear = 2022;
   const currentYear = new Date().getFullYear();
   const yearSpan = document.getElementById("year");
@@ -33,23 +66,9 @@ function addMenuInfo() {
     yearSpan.innerHTML = `&copy; ${startYear} - ${currentYear} &nbsp;|&nbsp; Powered by`;
   }
 
-  document.title = MENU_DATA.store.storeName;
-
-  if (MENU_DATA.store.storeLogo) {
-    const link = document.getElementById("favicon");
-    if (link) link.href = MENU_DATA.store.storeLogo;
-  }
-
-  const templateConfig = MENU_DATA?.templateConfig || {};
-
-  Object.entries(templateConfig).forEach(([key, value]) => {
-    value && document.documentElement.style.setProperty(key, value.trim());
-  });
-
   const container = document.getElementById("menu-container");
   container.innerHTML = "";
 
-  const { store } = MENU_DATA;
   const header = document.createElement("div");
   header.className = "store-header";
 
@@ -115,10 +134,9 @@ function addMenuInfo() {
   }
 }
 
-function createMenu(categoriesArray) {
-  addMenuInfo();
-
-  const currency = MENU_DATA?.store?.currency || "$";
+/* ── Create menu ───────────────────────────────────────── */
+function createMenu(categoriesArray, store) {
+  const currency = store?.currency || "$";
   const container = document.getElementById("menu-container");
 
   // Create toolbar for categories
@@ -127,14 +145,14 @@ function createMenu(categoriesArray) {
   toolbar.className = "category-toolbar";
   container.appendChild(toolbar);
 
-  // Create a container for subcategories and items
+  // Create a container for subCategories and items
   const sectionContainer = document.createElement("div");
   sectionContainer.id = "menu-sections";
   container.appendChild(sectionContainer);
 
   // Create toolbar buttons for each category
   categoriesArray.forEach((category) => {
-    if (category.hide || !category.subcategories?.length) return;
+    if (category.hide || !category.subCategories?.length) return;
 
     const btn = document.createElement("button");
     btn.textContent = category.label;
@@ -149,7 +167,7 @@ function createMenu(categoriesArray) {
 
   // Auto-render the first visible category
   const firstVisible = categoriesArray.find(
-    (c) => !c.hide && c.subcategories?.length,
+    (c) => !c.hide && c.subCategories?.length,
   );
   if (firstVisible) {
     const firstBtn = toolbar.querySelector(
@@ -185,7 +203,7 @@ function createMenu(categoriesArray) {
       });
     }
 
-    category.subcategories.forEach((sub) => {
+    category.subCategories.forEach((sub) => {
       if (sub.hide || !sub.items?.length) return;
 
       const subDiv = document.createElement("div");
@@ -310,9 +328,3 @@ function createMenu(categoriesArray) {
     }
   }
 }
-
-createMenu(categoriesArray);
-
-KSS.init({
-  serviceId: MENU_DATA.store.menuId,
-});

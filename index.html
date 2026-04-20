@@ -12,7 +12,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div id="menu-container" class="menu-container"></div>
+    <!-- Loader overlay -->
+    <div id="loader-overlay" class="loader-overlay">
+      <div class="loader-spinner"></div>
+      <p class="loader-text">Loading menu…</p>
+    </div>
+
+    <div id="menu-container" class="menu-container" style="display: none"></div>
 
     <footer class="menu-footer">
       <p>
@@ -26,8 +32,7 @@
       </p>
     </footer>
 
-    <script src="https://menus.blob.core.windows.net/shared/utils/logs.js"></script>
-    <script src="./js/data.js"></script>
+    <script src="./kss-engine/kss-engine.js"></script>
     <script src="./js/index.js"></script>
   </body>
 </html>
