@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Saturday, 23 May 2026 15:30:01 UTC",
+  "_dataFreshness": "Saturday, 23 May 2026 16:00:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -1692,12 +1692,13 @@
       "order": 3,
       "price": 5,
       "img": null,
-      "bgImg": null,
+      "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/465202e7-de87-4a24-ad57-700760331fd8.jpg",
       "hide": false,
       "calories": null,
       "is_Starred": false,
       "is_New": false,
-      "sizes": []
+      "sizes": [],
+      "is_Light": false
     },
     {
       "_id": "67fd12c2908188f42860d886",
@@ -2118,12 +2119,13 @@
       "order": 8,
       "price": 15,
       "img": null,
-      "bgImg": null,
+      "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/b2fdc4b0-21c7-43dd-bc1d-e3c84aab35e4.jpg",
       "hide": false,
       "calories": null,
       "is_Starred": false,
       "is_New": false,
-      "sizes": []
+      "sizes": [],
+      "is_Light": false
     },
     {
       "_id": "67fd1407908188f42860d8c1",
@@ -2135,12 +2137,13 @@
       "order": 5,
       "price": 12,
       "img": null,
-      "bgImg": null,
+      "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/b7103da5-4d0e-4e16-82fe-f773103b089d.jpg",
       "hide": false,
       "calories": null,
       "is_Starred": true,
       "is_New": false,
-      "sizes": []
+      "sizes": [],
+      "is_Light": false
     },
     {
       "_id": "67fd1407908188f42860d8c2",
@@ -2152,12 +2155,13 @@
       "order": 9,
       "price": 16,
       "img": null,
-      "bgImg": null,
+      "bgImg": "https://menus.blob.core.windows.net/shared/66d751cc2dfd45c14807f7cf/61ed014f-f39d-4927-83b5-e07d4b70bde3.jpg",
       "hide": false,
       "calories": null,
       "is_Starred": false,
       "is_New": false,
-      "sizes": []
+      "sizes": [],
+      "is_Light": false
     },
     {
       "_id": "67fd1407908188f42860d8c0",
