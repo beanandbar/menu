@@ -283,6 +283,27 @@ button {
   /* border: 2px solid var(--border-accent); */
 }
 
+.subcategory-image-button,
+.item-image-button {
+  display: block;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.item-image-button img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.subcategory-image-button {
+  flex-shrink: 0;
+  line-height: 0;
+}
+
 .subcategory-note {
   margin: 16px 16px 20px;
   padding: 12px 18px;
@@ -314,6 +335,29 @@ button {
   flex-direction: column;
   padding: 12px 20px;
   transition: var(--transition);
+}
+
+.item-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+}
+
+.item-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.item-image-button {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: var(--radius);
 }
 
 .item-row:hover {
@@ -362,11 +406,17 @@ button {
   align-items: center;
 }
 
+.item-row-sizes .item-main {
+  min-width: 0;
+}
+
 .item-header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: 16px;
+  flex: 1;
+  min-width: 0;
 }
 
 .item-header.has-sizes {
@@ -417,6 +467,55 @@ button {
   font-size: 14px;
   color: var(--text-secondary);
   line-height: 1.5;
+}
+
+.image-preview-open {
+  overflow: hidden;
+}
+
+.image-preview-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(4px);
+}
+
+.image-preview-overlay[hidden] {
+  display: none;
+}
+
+.image-preview-dialog {
+  position: relative;
+  width: min(100%, 900px);
+  max-height: 100%;
+}
+
+.image-preview-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  background: rgba(18, 18, 18, 0.82);
+  color: var(--text-primary);
+  font: inherit;
+  cursor: pointer;
+}
+
+.image-preview-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  max-height: calc(100dvh - 40px);
+  border-radius: calc(var(--radius) * 1.5);
+  object-fit: contain;
 }
 
 .item-new {
@@ -592,8 +691,17 @@ button {
     order: -1;
   }
 
+  .subcategory-image-button {
+    order: -1;
+  }
+
   .item-row {
     padding: 7px 14px;
+  }
+
+  .item-image-button {
+    width: 56px;
+    height: 56px;
   }
 
   .item-size-columns {
@@ -632,6 +740,21 @@ button {
 
   .item-description {
     font-size: 12px;
+  }
+
+  .image-preview-overlay {
+    padding: 12px;
+  }
+
+  .image-preview-close {
+    top: 10px;
+    right: 10px;
+    padding: 7px 11px;
+    font-size: 13px;
+  }
+
+  .image-preview-image {
+    max-height: calc(100dvh - 24px);
   }
 }
 

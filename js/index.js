@@ -23,10 +23,159 @@ KSS_ENGINE.error.subscribe(function (err) {
   }
 });
 
+/* ── 3. Image preview handling ─────────────────────────── */
+const IMAGE_PREVIEW_STATE_KEY = "menuImagePreview";
+let imagePreviewElements = null;
+
+function ensureImagePreview() {
+  if (imagePreviewElements) {
+    return imagePreviewElements;
+  }
+
+  const overlay = document.createElement("div");
+  overlay.className = "image-preview-overlay";
+  overlay.setAttribute("hidden", "hidden");
+  overlay.setAttribute("aria-hidden", "true");
+
+  const dialog = document.createElement("div");
+  dialog.className = "image-preview-dialog";
+  dialog.setAttribute("role", "dialog");
+  dialog.setAttribute("aria-modal", "true");
+  dialog.setAttribute("aria-label", "Image preview");
+
+  const closeButton = document.createElement("button");
+  closeButton.type = "button";
+  closeButton.className = "image-preview-close";
+  closeButton.setAttribute("aria-label", "Close image preview");
+  closeButton.textContent = "Close";
+
+  const image = document.createElement("img");
+  image.className = "image-preview-image";
+  image.alt = "";
+
+  dialog.appendChild(closeButton);
+  dialog.appendChild(image);
+  overlay.appendChild(dialog);
+  document.body.appendChild(overlay);
+
+  overlay.addEventListener("click", function (event) {
+    if (event.target === overlay) {
+      closeImagePreview();
+    }
+  });
+
+  closeButton.addEventListener("click", function () {
+    closeImagePreview();
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape" && isImagePreviewOpen()) {
+      closeImagePreview();
+    }
+  });
+
+  window.addEventListener("popstate", function () {
+    if (!isImagePreviewOpen()) {
+      return;
+    }
+
+    hideImagePreview();
+  });
+
+  imagePreviewElements = {
+    overlay,
+    image,
+    closeButton,
+  };
+
+  return imagePreviewElements;
+}
+
+function isImagePreviewOpen() {
+  return !!(
+    imagePreviewElements && !imagePreviewElements.overlay.hasAttribute("hidden")
+  );
+}
+
+function hasPreviewHistoryState() {
+  return !!(history.state && history.state[IMAGE_PREVIEW_STATE_KEY]);
+}
+
+function openImagePreview(src, alt) {
+  if (!src) {
+    return;
+  }
+
+  const preview = ensureImagePreview();
+  preview.image.src = src;
+  preview.image.alt = alt || "Preview image";
+  preview.overlay.removeAttribute("hidden");
+  preview.overlay.setAttribute("aria-hidden", "false");
+  document.body.classList.add("image-preview-open");
+
+  if (!hasPreviewHistoryState()) {
+    history.pushState(
+      Object.assign({}, history.state, {
+        [IMAGE_PREVIEW_STATE_KEY]: true,
+      }),
+      "",
+    );
+  }
+
+  preview.closeButton.focus();
+}
+
+function hideImagePreview() {
+  if (!imagePreviewElements) {
+    return;
+  }
+
+  imagePreviewElements.overlay.setAttribute("hidden", "hidden");
+  imagePreviewElements.overlay.setAttribute("aria-hidden", "true");
+  imagePreviewElements.image.removeAttribute("src");
+  imagePreviewElements.image.alt = "";
+  document.body.classList.remove("image-preview-open");
+}
+
+function closeImagePreview() {
+  if (!isImagePreviewOpen()) {
+    return;
+  }
+
+  if (hasPreviewHistoryState()) {
+    hideImagePreview();
+    history.back();
+    return;
+  }
+
+  hideImagePreview();
+}
+
+function createPreviewTrigger(imageSrc, imageAlt, className) {
+  const trigger = document.createElement("button");
+  const previewImage = document.createElement("img");
+
+  trigger.type = "button";
+  trigger.className = className;
+  trigger.setAttribute("aria-label", `Preview ${imageAlt}`);
+
+  previewImage.src = imageSrc;
+  previewImage.alt = imageAlt;
+  previewImage.loading = "lazy";
+
+  trigger.appendChild(previewImage);
+  trigger.addEventListener("click", function () {
+    openImagePreview(imageSrc, imageAlt);
+  });
+
+  return trigger;
+}
+
 /* ── 3. Build UI when data is ready ────────────────────── */
 KSS_ENGINE.onReady(function (menuData) {
   var store = menuData.store;
   KSS_ENGINE.setupPageMeta(store);
+  ensureImagePreview();
 
   addMenuInfo(store);
   createMenu(menuData.categories, store);
@@ -280,11 +429,13 @@ function createMenu(categoriesArray, store) {
       subHeader.appendChild(heading);
 
       if (sub.bgImg) {
-        const img = document.createElement("img");
-        img.src = sub.bgImg;
-        img.alt = `${sub.label} image`;
-        img.loading = "lazy";
-        subHeader.appendChild(img);
+        subHeader.appendChild(
+          createPreviewTrigger(
+            sub.bgImg,
+            `${sub.label} image`,
+            "subcategory-image-button",
+          ),
+        );
       }
       subDiv.appendChild(subHeader);
 
@@ -338,6 +489,22 @@ function createMenu(categoriesArray, store) {
           );
         }
 
+        const itemMain = document.createElement("div");
+        itemMain.className = "item-main";
+
+        const itemContent = document.createElement("div");
+        itemContent.className = "item-content";
+
+        if (item.bgImg) {
+          itemMain.appendChild(
+            createPreviewTrigger(
+              item.bgImg,
+              `${item.label} image`,
+              "item-image-button",
+            ),
+          );
+        }
+
         const header = document.createElement("div");
         header.className = "item-header";
         if (hasSizeRows) {
@@ -370,7 +537,17 @@ function createMenu(categoriesArray, store) {
           header.appendChild(price);
         }
 
-        itemRow.appendChild(header);
+        itemContent.appendChild(header);
+
+        if (item.description) {
+          const desc = document.createElement("p");
+          desc.className = "item-description";
+          desc.textContent = item.description;
+          itemContent.appendChild(desc);
+        }
+
+        itemMain.appendChild(itemContent);
+        itemRow.appendChild(itemMain);
 
         if (hasSizeRows) {
           const sizeList = document.createElement("div");
@@ -405,13 +582,6 @@ function createMenu(categoriesArray, store) {
           });
 
           itemRow.appendChild(sizeList);
-        }
-
-        if (item.description) {
-          const desc = document.createElement("p");
-          desc.className = "item-description";
-          desc.textContent = item.description;
-          itemRow.appendChild(desc);
         }
 
         itemsWrapper.appendChild(itemRow);
