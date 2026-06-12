@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Saturday, 23 May 2026 16:00:00 UTC",
+  "_dataFreshness": "Friday, 12 June 2026 19:00:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -224,7 +224,7 @@
       "order": 16,
       "img": null,
       "bgImg": "",
-      "hide": false,
+      "hide": true,
       "note": "Breakfast items are only available from 10 AM to 1 PM\nFrom Friday to Monday",
       "sizes": [],
       "useSizes": false
@@ -301,7 +301,7 @@
       "order": 7,
       "img": null,
       "bgImg": "",
-      "hide": false,
+      "hide": true,
       "note": null,
       "sizes": [],
       "useSizes": false
@@ -325,9 +325,10 @@
       "order": 1,
       "img": null,
       "bgImg": "",
-      "hide": false,
+      "hide": true,
       "note": null,
-      "sizes": []
+      "sizes": [],
+      "useSizes": false
     },
     {
       "_id": "6a11b2d5d52cb93c85849a68",
@@ -339,7 +340,7 @@
       "bgImg": "",
       "useSizes": false,
       "sizes": [],
-      "hide": false,
+      "hide": true,
       "note": null
     },
     {
