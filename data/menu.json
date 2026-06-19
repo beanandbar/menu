@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Friday, 19 June 2026 18:00:00 UTC",
+  "_dataFreshness": "Friday, 19 June 2026 18:30:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -1964,7 +1964,7 @@
       "description": "Chicken fillet, mozzarella patty, lettuce, tomatoes, pickles & mayo",
       "unit": null,
       "order": 3,
-      "price": 9,
+      "price": 8,
       "img": null,
       "bgImg": "",
       "hide": false,
