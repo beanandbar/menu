@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Thursday, 25 June 2026 10:00:00 UTC",
+  "_dataFreshness": "Tuesday, 30 June 2026 15:30:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -251,7 +251,7 @@
       "img": null,
       "bgImg": "",
       "hide": false,
-      "note": "All Sandwiches are Served with Fries and Coleslaw",
+      "note": "All Sandwiches are Served with Fries and Coleslaw\nUpgrade to Brown Ciabatta: +$1.00",
       "sizes": [],
       "useSizes": false
     },
@@ -2836,7 +2836,7 @@
       "menuId": "66d751cc2dfd45c14807f7cf",
       "subcategoryId": "67fd0a39908188f42860d707",
       "label": "Grilled Chicken",
-      "description": "Brown ciabatta bread, grilled chicken, lettuce, tomatoes, pickles & light mayo",
+      "description": "Ciabatta bread, grilled chicken, lettuce, tomatoes, pickles & light mayo",
       "unit": null,
       "order": 5,
       "price": 8,
@@ -2994,7 +2994,11 @@
       "hide": false,
       "calories": null,
       "is_Starred": false,
-      "is_New": false
+      "is_New": false,
+      "sizes": {
+        "Glass": 12,
+        "BTL.": 130
+      }
     },
     {
       "_id": "6a11c0d5a8e2acc979dec34f",
