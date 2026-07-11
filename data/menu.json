@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Friday, 10 July 2026 10:00:00 UTC",
+  "_dataFreshness": "Saturday, 11 July 2026 09:00:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -224,7 +224,7 @@
       "order": 16,
       "img": null,
       "bgImg": "",
-      "hide": true,
+      "hide": false,
       "note": "Breakfast items are only available from 10 AM to 1 PM\nFrom Friday to Monday",
       "sizes": [],
       "useSizes": false
@@ -2217,16 +2217,17 @@
       "subcategoryId": "67fd0a39908188f42860d703",
       "label": "Lahem B Ajin",
       "description": "",
-      "unit": "5 Pcs",
+      "unit": "1 Pcs",
       "order": 3,
-      "price": 5,
+      "price": 1,
       "img": null,
-      "bgImg": null,
+      "bgImg": "",
       "hide": false,
       "calories": null,
       "is_Starred": false,
       "is_New": false,
-      "sizes": []
+      "sizes": [],
+      "is_Light": false
     },
     {
       "_id": "67fd1556908188f42860d8e5",
