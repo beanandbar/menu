@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Sunday, 12 July 2026 09:30:00 UTC",
+  "_dataFreshness": "Sunday, 12 July 2026 10:00:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -1900,7 +1900,7 @@
       "bgImg": "",
       "hide": false,
       "calories": null,
-      "is_Starred": false,
+      "is_Starred": true,
       "is_New": false,
       "sizes": [],
       "is_Light": false
@@ -2092,7 +2092,7 @@
       "label": "Mighty Chicken Burger",
       "description": "Chicken fillet, mozzarella patty, lettuce, tomatoes, pickles & mayo",
       "unit": null,
-      "order": 3,
+      "order": 5,
       "price": 8,
       "img": null,
       "bgImg": "",
@@ -2128,7 +2128,7 @@
       "label": "Swiss Mushroom Burger",
       "description": "150g beef patty, mushrooms, cheddar, emmental & special sauce",
       "unit": null,
-      "order": 5,
+      "order": 4,
       "price": 8,
       "img": null,
       "bgImg": "",
@@ -2973,7 +2973,7 @@
       "label": "Bacon Burger",
       "description": "150g beef patty, bacon, emmental, cheddar, caramelized onions & special sauce",
       "unit": null,
-      "order": 4,
+      "order": 3,
       "price": 8,
       "img": null,
       "bgImg": "",
