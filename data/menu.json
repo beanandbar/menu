@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Saturday, 11 July 2026 09:00:00 UTC",
+  "_dataFreshness": "Sunday, 12 July 2026 09:30:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -225,7 +225,7 @@
       "img": null,
       "bgImg": "",
       "hide": false,
-      "note": "Breakfast items are only available from 10 AM to 1 PM\nFrom Friday to Monday",
+      "note": "Breakfast items are only available from 10 AM to 1 PM",
       "sizes": [],
       "useSizes": false
     },
