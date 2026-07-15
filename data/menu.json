@@ -1,5 +1,5 @@
 {
-  "_dataFreshness": "Wednesday, 15 July 2026 12:30:00 UTC",
+  "_dataFreshness": "Wednesday, 15 July 2026 16:00:00 UTC",
   "store": {
     "sm": {
       "email": null,
@@ -3147,7 +3147,7 @@
       "price": 18,
       "img": null,
       "bgImg": "",
-      "hide": false,
+      "hide": true,
       "calories": null,
       "is_Light": false,
       "is_Starred": false,
@@ -3368,7 +3368,7 @@
       "price": 6.5,
       "img": null,
       "bgImg": "",
-      "hide": false,
+      "hide": true,
       "calories": null,
       "is_Light": false,
       "is_Starred": false,
@@ -3470,7 +3470,7 @@
       "price": 7,
       "img": null,
       "bgImg": "",
-      "hide": false,
+      "hide": true,
       "calories": null,
       "is_Light": false,
       "is_Starred": false,
@@ -3504,7 +3504,7 @@
       "price": 20,
       "img": null,
       "bgImg": "",
-      "hide": false,
+      "hide": true,
       "calories": null,
       "is_Light": false,
       "is_Starred": false,
