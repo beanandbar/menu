@@ -297,8 +297,36 @@ function createMenu(categoriesArray, store) {
   const currency = store?.currency || "$";
   const container = document.getElementById("menu-container");
 
-  function formatItemPrice(value) {
-    return value != null ? `${currency} ${value}` : "";
+  function applyArabicNumerals(value) {
+    if (value == null) {
+      return "";
+    }
+
+    const arabicDigits = {
+      0: "٠",
+      1: "١",
+      2: "٢",
+      3: "٣",
+      4: "٤",
+      5: "٥",
+      6: "٦",
+      7: "٧",
+      8: "٨",
+      9: "٩",
+    };
+
+    return String(value).replace(/\d/g, function (digit) {
+      return arabicDigits[digit] || digit;
+    });
+  }
+
+  function formatItemPrice(value, isArabic) {
+    if (value == null) {
+      return "";
+    }
+
+    const formattedValue = `${currency} ${value}`;
+    return isArabic ? applyArabicNumerals(formattedValue) : formattedValue;
   }
 
   function hasPriceValue(value) {
@@ -431,10 +459,17 @@ function createMenu(categoriesArray, store) {
       if (sub.hide || !sub.items?.length) return;
 
       const usesSizes = sub.useSizes === true && Array.isArray(sub.sizes);
+      const shouldUseArabic = sub.isArabic === true;
 
       const subDiv = document.createElement("article");
       subDiv.className = "subcategory";
       subDiv.style.animationDelay = `${subIndex * 60}ms`;
+
+      if (shouldUseArabic) {
+        subDiv.setAttribute("dir", "rtl");
+        subDiv.setAttribute("lang", "ar");
+        subDiv.classList.add("subcategory-arabic");
+      }
 
       const subHeader = document.createElement("header");
       subHeader.className = "subcategory-header";
@@ -529,14 +564,20 @@ function createMenu(categoriesArray, store) {
 
         const name = document.createElement("span");
         name.className = "item-name";
+        const newLabel = shouldUseArabic ? "جديد" : "New";
+        const bestSellerLabel = shouldUseArabic
+          ? "الأكثر مبيعًا"
+          : "Best Seller";
+        const lightLabel = shouldUseArabic ? "خفيف" : "Light";
+
         name.innerHTML =
           getDisplayItemLabel(item.label, orderedSizeLabels, hasSizeRows) +
           (item.is_New
-            ? ' <span class="item-new" aria-label="New item">New</span>'
+            ? ` <span class="item-new" aria-label="${newLabel}">${newLabel}</span>`
             : item.is_Starred
-              ? ' <span class="item-new" aria-label="Best seller">Best Seller</span>'
+              ? ` <span class="item-new" aria-label="${bestSellerLabel}">${bestSellerLabel}</span>`
               : item.is_Light
-                ? ' <span class="item-new" aria-label="Light">Light</span>'
+                ? ` <span class="item-new" aria-label="${lightLabel}">${lightLabel}</span>`
                 : "") +
           (item.unit ? ` <span class="item-unit">${item.unit}</span>` : "");
 
@@ -547,9 +588,9 @@ function createMenu(categoriesArray, store) {
           price.className = "item-price";
           price.setAttribute(
             "aria-label",
-            `Price: ${formatItemPrice(item.price)}`,
+            `Price: ${formatItemPrice(item.price, shouldUseArabic)}`,
           );
-          price.textContent = formatItemPrice(item.price);
+          price.textContent = formatItemPrice(item.price, shouldUseArabic);
           header.appendChild(price);
         }
 
@@ -577,14 +618,14 @@ function createMenu(categoriesArray, store) {
             const sizeValue = document.createElement("span");
             sizeValue.className = "item-size-price";
             sizeValue.textContent = hasSizePrice
-              ? formatItemPrice(sizePrice)
+              ? formatItemPrice(sizePrice, shouldUseArabic)
               : "-";
             sizeValue.setAttribute("data-size-label", sizeLabel);
 
             if (hasSizePrice) {
               sizeValue.setAttribute(
                 "aria-label",
-                `${sizeLabel}: ${formatItemPrice(sizePrice)}`,
+                `${sizeLabel}: ${formatItemPrice(sizePrice, shouldUseArabic)}`,
               );
             } else {
               sizeValue.classList.add("item-size-price-empty");
@@ -609,6 +650,10 @@ function createMenu(categoriesArray, store) {
         const noteDiv = document.createElement("aside");
         noteDiv.className = "subcategory-note";
         noteDiv.setAttribute("aria-label", "Note");
+        if (shouldUseArabic) {
+          noteDiv.setAttribute("dir", "rtl");
+          noteDiv.setAttribute("lang", "ar");
+        }
         noteDiv.innerText = sub.note;
         subDiv.appendChild(noteDiv);
       }
